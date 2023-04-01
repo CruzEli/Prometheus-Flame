@@ -1,0 +1,59 @@
+#Prometheus Flame Dev Roadmap
+
+#0.0.1
+#New System Alzemait -(Complete)
+#	-Phenyria
+#	-Ilyria
+#	-Daedalus Station
+	
+#New Ships
+#	-Zokef (General utility starcraft) - (Ship Sprite complete - Stats complete - Thumbnail in progress.)
+#	-Anvatis (Turret-focused interceptor) - (Model in the Works.)
+#	-Emporos (Cargo/Miner hybrid ship) - (Planning phase.)
+#		-Asteledfis (Asteroid miner drone)
+
+#0.0.2
+#Integration of the ships into ES (adding them into fleets)
+
+#Small Missions
+#	-Shipment Missions
+#	-Prototype Testing
+#	-Scholar Transportation
+
+#Storyline
+#	-Intro (meeting and working with Paradeigm)
+#		-Small courier jobs
+#		-Cargo Escort
+#		-Joining for the Company (Salary included)
+	
+#0.1.0
+#Complete the three ships, finish intro missions
+
+#0.2.0
+#New Ships
+#	-Monitor (Free Worlds Gunboat/Rainmaker hybrid)
+#	-Syron (Armored 150 tons cargo starship)
+#	-Daring (Free Worlds Frigate/Destroyer starship)
+#		-Proskopi (Free Worlds Survelliance Drone)
+
+#Storyline
+#	-FW (Paradeigm and the Free Worlds)
+#		-Testing the Monitor (if you finish this trail before joining the FW, you can unlock the Monitor before the Battle of Kornephoros.)
+#		-Cargo Escort
+#		-Joining for the Company (Salary included)
+
+#0.2.1
+#New Outfits. (courtesy of Ikaros Engineering)
+
+#Pulse Cannons (Small shield depleter weapon for future small starcraft)
+#Aeraki Family of Human Active Coolers
+#Meiron Generators (similar to the Hai reactors but slightly lesser in performance though cheaper in price.)
+
+#Integration of the New outfits in the game
+
+#0.3.0
+#New Ships
+#	-Syfka (Multirole Logistics/Carrier, Free Worlds equivalent of the Navy Auxiliary)
+#		-Southbound Dropship
+#		-Tarazed Buzzard Fighter (Derived from the Hawk)
+#		-Paradigm Kounupi (Combat Drone)

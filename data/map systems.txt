@@ -1,0 +1,677 @@
+galaxy "Milky Way"
+	pos 112 22
+	sprite "ui/milky way"
+
+galaxy "label arachi"
+
+galaxy "label core"
+
+galaxy "label deep"
+
+galaxy "label dirt belt"
+
+galaxy "label earth"
+
+galaxy "label gegno"
+	pos 854 -544
+
+galaxy "label graveyard"
+
+galaxy "label hai"
+
+galaxy "label kimek"
+
+galaxy "label korath"
+
+galaxy "label north"
+
+galaxy "label paradise"
+
+galaxy "label rim"
+
+galaxy "label saryds"
+
+galaxy "label south"
+
+galaxy "label wanderers"
+
+galaxy "label waste"
+
+galaxy "pug empty galaxy"
+
+system Alniyat
+	add link Phanam
+
+system Alzyria
+	pos -908.391 467.936
+	government Republic
+	habitable 912.6
+	belt 1426
+	link "Beta Lupi"
+	link "Kappa Centauri"
+	link Umyl
+	asteroids "small rock" 1 2.153
+	asteroids "medium rock" 18 0.936
+	asteroids "large rock" 1 1.123
+	asteroids "small metal" 9 1.622
+	asteroids "medium metal" 56 1.076
+	asteroids "large metal" 20 1.981
+	minables titanium 11 8.114
+	minables silicon 7 3.64
+	minables tungsten 9 6.279
+	trade Clothing 324
+	trade Electronics 692
+	trade Equipment 439
+	trade Food 312
+	trade "Heavy Metals" 1022
+	trade Industrial 704
+	trade "Luxury Goods" 1143
+	trade Medical 524
+	trade Metal 436
+	trade Plastic 398
+	fleet "Small Southern Merchants" 800
+	fleet "Large Southern Merchants" 1400
+	fleet "Small Southern Pirates" 2200
+	fleet "Large Southern Pirates" 4000
+	fleet "Small Militia" 900
+	fleet "Large Militia" 1800
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/rock0-b
+		distance 535.64
+		period 233.961
+		offset 281.171
+	object Nymbu
+		sprite planet/cloud2
+		distance 985.625
+		period 452.633
+		offset 101.124
+	object Phenyria
+		sprite planet/ice5
+		distance 1935.638
+		period 831.419
+		offset 4.848
+		object
+			sprite planet/europa-b
+			distance 353.696
+			period 12
+			offset 64
+		object Ilmyria
+			sprite planet/ice0-b
+			distance 215.145
+			period 27.547
+			offset 73.95
+	object
+		sprite planet/cloud5
+		distance 2754.336
+		period 1606.52
+		offset 269.939
+	object
+		sprite planet/cloud0
+		distance 3692.773
+		period 1920.91
+		offset 164.222
+	object
+		sprite planet/gas16
+		distance 4482.011
+		period 2892.53
+		offset 58.514
+		object "Daedalus Station"
+			sprite planet/station5
+			distance 399.983
+			period 42.108
+			offset 269.808
+
+system Aurelius
+	pos -766.335 392.287
+	government Republic
+	habitable 1080
+	belt 1811
+	link Thales
+	asteroids "medium rock" 4 2.73
+	asteroids "large rock" 1 3.021
+	asteroids "small metal" 2 5.096
+	asteroids "medium metal" 41 2.766
+	asteroids "large metal" 1 4.659
+	minables silver 7 6.427
+	minables gold 2 3.776
+	minables titanium 1 1.835
+	trade Clothing 327
+	trade Electronics 740
+	trade Equipment 422
+	trade Food 197
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 764
+	trade Metal 293
+	trade Plastic 233
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/cloud3
+		distance 559.159
+		period 160.935
+		offset 204.416
+	object
+		sprite planet/cloud4
+		distance 1133.92
+		period 464.752
+		offset 66.702
+	object Austral
+		sprite planet/cloud5-b
+		distance 1898.63
+		period 1006.95
+		offset 102.379
+		object
+			sprite planet/ice7
+			distance 250.336
+			period 34.926
+			offset 330.405
+	object
+		sprite planet/uranus
+		distance 3342.97
+		period 2352.59
+		offset 143.102
+		object
+			sprite planet/dust7
+			distance 222
+			period 14.132
+			offset 65.307
+		object
+			sprite planet/dust5
+			distance 321
+			period 24.572
+			offset 74.173
+	object
+		sprite planet/gas2
+		distance 5465.29
+		period 4917.77
+		offset 308.02
+		object
+			sprite planet/europa
+			distance 246.862
+			period 23.502
+			offset 198.439
+		object
+			sprite planet/lava0
+			distance 349.862
+			period 39.652
+			offset 191.011
+		object
+			sprite planet/callisto
+			distance 468.862
+			period 61.515
+			offset 238.942
+		object
+			sprite planet/rock14
+			distance 588.862
+			period 86.583
+			offset 66.439
+	object
+		sprite planet/gas0
+		distance 8689.11
+		period 9858.5
+		offset 309.004
+		object
+			sprite planet/desert4
+			distance 288
+			period 14.323
+		object
+			sprite planet/dust3
+			distance 417
+			period 24.955
+		object
+			sprite planet/luna
+			distance 512
+			period 33.952
+
+system "Beta Lupi"
+	add link Alzyria
+
+system Bethlem
+	pos -805.309 494.261
+	government Republic
+	habitable 1080
+	belt 1670
+	link Pherkad
+	asteroids "small rock" 26 1.79
+	asteroids "medium rock" 14 3.475
+	asteroids "large rock" 11 2.808
+	asteroids "small metal" 2 5.23
+	asteroids "medium metal" 2 3.65
+	asteroids "large metal" 1 4.493
+	minables lead 12 3.083
+	trade Clothing 312
+	trade Electronics 732
+	trade Equipment 461
+	trade Food 147
+	trade "Heavy Metals" 987
+	trade Industrial 753
+	trade "Luxury Goods" 1090
+	trade Medical 874
+	trade Metal 406
+	trade Plastic 225
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/forest3
+		distance 398.681
+		period 96.892
+		offset 296.507
+	object
+		sprite planet/desert1
+		distance 1087.28
+		period 436.375
+		offset 121.038
+	object
+		sprite planet/gas1
+		distance 2203.78
+		period 1259.21
+		offset 166.103
+		object Misoes
+			sprite planet/ice8
+			distance 362.064
+			period 27.536
+			offset 138.059
+		object
+			sprite planet/europa
+			distance 440.064
+			period 36.897
+			offset 232.923
+		object
+			sprite planet/dust5
+			distance 585.141
+			period 56.573
+			offset 98.15
+		object
+			sprite planet/oberon
+			distance 670.141
+			period 69.337
+			offset 127.843
+	object
+		sprite planet/gas3
+		distance 4320.87
+		period 3457.04
+		offset 267.719
+		object
+			sprite planet/dust0
+			distance 281
+			period 12.032
+		object
+			sprite planet/miranda
+			distance 366
+			period 17.885
+		object
+			sprite planet/callisto
+			distance 509
+			period 29.332
+
+system "Kappa Centauri"
+	add link Alzyria
+	object
+		sprite star/g0
+		distance 10.614
+		period 10.714
+	object
+		sprite star/m8
+		distance 84.912
+		period 10.714
+		offset 180
+	object
+		sprite planet/mercury-b
+		distance 311.068
+		period 62.959
+	object
+		sprite planet/lava3-b
+		distance 652.678
+		period 191.346
+	object Cornucopia
+		sprite planet/forest3
+		distance 1198.68
+		period 476.24
+	object
+		sprite planet/tethys-b
+		distance 1542.24
+		period 695.023
+	object
+		sprite planet/gas17-b
+		distance 2905.68
+		period 1797.39
+		object
+			sprite planet/ganymede
+			distance 226
+			period 13.707
+		object
+			sprite planet/rock17
+			distance 365
+			period 28.133
+
+system Men
+	object
+		sprite star/k8
+		period 10
+	object Thule
+		sprite planet/forest4
+		distance 250
+		period 82.199
+	object
+		sprite planet/ocean0
+		distance 525
+		period 250.148
+	object
+		sprite planet/gas9
+		distance 1315
+		period 991.625
+		object
+			sprite planet/dust2
+			distance 253
+			period 14.193
+		object
+			sprite planet/callisto
+			distance 377
+			period 25.817
+		object
+			sprite planet/io-b
+			distance 555
+			period 46.114
+	object
+		sprite planet/gas13-b
+		distance 2550
+		period 2677.74
+		object "Smuggler's Den"
+			sprite planet/station15
+			distance 302
+			period 14.081
+
+system Phanam
+	pos -723.212 444.267
+	government Republic
+	habitable 1250
+	belt 1588
+	link Alniyat
+	link Pherkad
+	link Thales
+	asteroids "large metal" 1 1.26
+	trade Clothing 292
+	trade Electronics 745
+	trade Equipment 501
+	trade Food 255
+	trade "Heavy Metals" 871
+	trade Industrial 763
+	trade "Luxury Goods" 1350
+	trade Medical 874
+	trade Metal 333
+	trade Plastic 335
+	fleet "Small Southern Merchants" 600
+	fleet "Large Southern Merchants" 1200
+	fleet "Small Militia" 800
+	fleet "Large Militia" 1600
+	fleet "Small Southern Pirates" 2000
+	fleet "Large Southern Pirates" 4000
+	object
+		sprite star/g5
+		distance 47
+		period 10.311
+		offset 180
+	object
+		sprite star/g5
+		distance 47
+		period 10.311
+	object
+		sprite planet/desert8
+		distance 783.609
+		period 248.173
+		offset 133.48
+		object
+			sprite planet/ice0
+			distance 131
+			period 19.232
+	object "San Paolo"
+		sprite planet/forest5
+		distance 2358.94
+		period 1296.22
+		offset 77.593
+		object
+			sprite planet/ice7
+			distance 320.494
+			period 58.74
+			offset 359.673
+	object "Columbia"
+		sprite planet/ocean7
+		distance 3259.23
+		period 2105.12
+		offset 307.839
+		object
+			sprite planet/callisto
+			distance 220.84
+			period 31.384
+			offset 314.423
+		object
+			sprite planet/luna
+			distance 385.291
+			period 72.323
+			offset 123.929
+	object
+		sprite planet/gas6
+		distance 4989.08
+		period 3986.9
+		offset 356.189
+		object
+			sprite planet/dust7
+			distance 268
+			period 11.206
+	object
+		sprite planet/gas0
+		distance 6004.79
+		period 5264.44
+		offset 175.289
+	object
+		sprite planet/gas1
+		distance 7601.59
+		period 7498.28
+		offset 355.59
+		object
+			sprite planet/dust1
+			distance 411.442
+			period 33.356
+			offset 34.149
+		object
+			sprite planet/rock3
+			distance 557.442
+			period 52.604
+			offset 69.391
+		object
+			sprite planet/rock0
+			distance 676.442
+			period 70.317
+			offset 40.638
+
+system Pherkad
+	add link Bethlem
+	add link Phanam
+	add link Thales
+
+system Thales
+	pos -770.745 426.361
+	government Republic
+	habitable 1050.92
+	belt 1384
+	link Aurelius
+	link Phanam
+	link Pherkad
+	asteroids "small rock" 57 2.781
+	asteroids "medium rock" 88 3.402
+	asteroids "large rock" 21 2.376
+	asteroids "small metal" 34 2.079
+	asteroids "medium metal" 54 2.754
+	asteroids "large metal" 87 2.052
+	minables aluminum 3 3.296
+	minables copper 3 2.938
+	minables silver 19 2.879
+	fleet "Small Southern Merchants" 1000
+	fleet "Small Southern Pirates" 1400
+	fleet "Large Southern Pirates" 2200
+	fleet "Small Militia" 1800
+	fleet "Large Militia" 3800
+	fleet "Human Miners" 3000
+	object
+		sprite star/g5
+		distance 36.476
+		period 10.535
+		offset 180
+	object
+		sprite star/k5
+		distance 53.525
+		period 10.535
+	object
+		sprite planet/cloud7
+		distance 278.335
+		period 57.296
+	object
+		sprite planet/rock4
+		distance 637.745
+		period 198.722
+	object
+		sprite planet/gas1
+		distance 1236.74
+		period 536.655
+		object
+			sprite planet/dust5
+			distance 240
+			period 14.861
+	object
+		sprite planet/lava7
+		distance 1687.03
+		period 854.99
+	object
+		sprite planet/neptune
+		distance 3842.44
+		period 2938.91
+		object
+			sprite planet/tethys
+			distance 177
+			period 11.733
+
+system Umyl
+	pos -908.373 415.611
+	government Republic
+	habitable 425.92
+	belt 1840
+	link Alzyria
+	asteroids "small rock" 2 1.638
+	asteroids "medium rock" 34 3.452
+	asteroids "large rock" 2 2.848
+	asteroids "small metal" 5 3.1
+	asteroids "medium metal" 60 3.402
+	asteroids "large metal" 38 3.503
+	minables aluminum 1 4.488
+	minables titanium 21 3.595
+	trade Clothing 313
+	trade Electronics 732
+	trade Equipment 389
+	trade Food 174
+	trade "Heavy Metals" 873
+	trade Industrial 753
+	trade "Luxury Goods" 1270
+	trade Medical 696
+	trade Metal 482
+	trade Plastic 544
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/dust5
+		distance 362.081
+		period 133.538
+		offset 8.227
+	object Inova
+		sprite planet/water1
+		distance 711.799
+		period 368.072
+		offset 57.195
+		object
+			sprite planet/luna
+			distance 163.228
+			period 20.983
+			offset 246.459
+	object
+		sprite planet/desert8
+		distance 1217.8
+		period 823.678
+		offset 190.085
+	object
+		sprite planet/rock8
+		distance 1716.15
+		period 1377.93
+		offset 261.343
+	object
+		sprite planet/gas11
+		distance 2703.99
+		period 2725.24
+		offset 206.406
+		object
+			sprite planet/miranda
+			distance 274
+			period 14.959
+		object
+			sprite planet/tethys
+			distance 345
+			period 21.135
+	object
+		sprite planet/gas17
+		distance 4364.15
+		period 5587.86
+		offset 143.946
+		object
+			sprite planet/europa
+			distance 217
+			period 13.657
+			offset 188.916
+	object
+		sprite planet/gas8
+		distance 6026.05
+		period 9066.62
+		offset 355.427
+		object
+			sprite planet/dust3
+			distance 218
+			period 17.134
+		object
+			sprite planet/callisto
+			distance 360
+			period 36.361
+		object
+			sprite planet/io
+			distance 499
+			period 59.337
+
+system "Yed Prior"
+	object
+		sprite star/k3
+		period 10
+	object
+		sprite planet/desert7
+		distance 158.5
+		period 37.627
+	object Winter
+		sprite planet/ocean0
+		distance 534.79
+		period 233.2
+	object
+		sprite planet/dust1-b
+		distance 776.2
+		period 407.768
+	object
+		sprite planet/gas7-b
+		distance 1903.69
+		period 1566.2
+		object
+			sprite planet/dust0
+			distance 224
+			period 10.879
+

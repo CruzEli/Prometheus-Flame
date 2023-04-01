@@ -1,0 +1,112 @@
+# Copyright (c) 2023 by Epsil-Astra
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+
+ship "Zokef"
+	sprite "ship/zokef"
+	thumbnail "ship/zokef"
+	attributes
+		category "Utility"
+		"cost" 320000
+		"shields" 700
+		"hull" 900
+		"required crew" 2
+		"bunks" 10
+		"mass" 95
+		"drag" 2.0
+		"heat dissipation" .8
+		"fuel capacity" 400
+		"cargo space" 45
+		"outfit space" 150
+		"weapon capacity" 28
+		"engine capacity" 82
+		weapon
+			"blast radius" 17
+			"shield damage" 140
+			"hull damage" 80
+			"hit force" 200
+	outfits
+		"Energy Blaster" 2
+		
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"Cooling Ducts"
+		"Laser Rifle" 2
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"Hyperdrive"
+	
+	gun 12.5 -24 
+	gun -12.5 -24 
+	"reverse engine" -17 -10.5 
+	"reverse engine" 18 -10.5 
+	"steering engine" -18 22.5 
+		angle 90
+		left
+	"steering engine" 19 22.5 
+		angle 90
+		right
+	engine 11.5 39 
+	engine -11.5 39 
+
+	description "When the Borderworlds and South began to establish trade routes of their own, the need for a cheap ferry ship was done using the Betelgeuse Shuttle, for centuries that was the norm until the early days of the Republic when constant pirate attacks coupled with the Shuttle own shortcomings left a toll far to large for Paradeigm, so a replacement was desired by novice Border captains and Company Logistics. Seeing this as an opportunity Paradeigm developed their own shuttle derivative, the Zokef."
+	description "Although its bulky and more expensive compared to its closest competitor, the F2 'Zokef' compensates with a larger cargo and passenger capacity while having enough space to equip better engines and systems for endurance, its modularity and large outfit space (for its size), allows it to undertake multiple roles like a basic combat ship using its two gun-ports wisely or operating like a miner starcraft, however because this is a Shuttle derived vehicle first and foremost it can't compare to a specialized vessel so captains should take note of that."
+	
+ship "Anvatis"	
+	sprite "ship/anvatis"
+	thumbnail "ship/anvatis"
+	attributes
+		category "Light Warship"
+		"cost" 1902000
+		"shields" 3400
+		"hull" 1800
+		"required crew" 2
+		"bunks" 7
+		"mass" 130
+		"drag" 2.7
+		"heat dissipation" .8
+		"fuel capacity" 400
+		"cargo space" 40
+		"outfit space" 240
+		"weapon capacity" 64
+		"engine capacity" 82
+		weapon
+			"blast radius" 47
+			"shield damage" 480
+			"hull damage" 240
+			"hit force" 620
+	outfits
+		"Heavy Laser" 2
+		"Heavy Anti-Missile Turret"
+		
+		"RT-I Radiothermal"
+		"KP-6 Photovoltaic Array"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"		
+		
+	turret 0 5 "Heavy Anti-Missile Turret"
+	gun 18.5 -18 "Heavy Laser"
+	gun -18.5 -18 "Heavy Laser"
+	engine 29.5 42.5 
+	engine -29.5 42.5 
+	engine 0 59 
+	leak "leak" 80 50
+	leak "flame" 60 80
+	explode "tiny explosion" 27
+	explode "small explosion" 18
+	explode "medium explosion" 24
+	"final explode" "final explosion small"
+	description "TBD"
