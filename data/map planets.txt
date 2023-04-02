@@ -11,7 +11,9 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
-# ============= Alniyat
+# ========================================================
+#						Borderworlds
+# ========================================================
 
 planet Phenyria
 	attributes research factory border
@@ -135,3 +137,42 @@ planet Inova
 	"required reputation" -1000
 	government Uninhabited
 	security 0
+	
+# ========================================================
+#						Republic
+# ========================================================
+
+planet Mars
+	attributes "near earth" tourism factory farming
+	landscape land/marsterra
+	description `Mars was humanity's first attempt at terraforming. When the first experiments yielded mixed results, the project was abandoned as far more hospitable planets were available to those with enough money to pay for interstellar travel.`
+	description `The loss of trade during the 25th century forced Earth to find a new breadbasket for its unparalleled population, prompting the development of greenhouses away from crowded Earth. Escaping famine, Mars received millions of settlers from Earth to set up a new life as farmers in the greenhouses. Successive terraforming efforts has made Mars more habitable and suitable for farming.`
+	description `Mars is also the headquarters of the Republic Navy, and besides Geminus, is the most important military base in all of human space.`
+	spaceport `The spaceport on Mars is situated next to the Southern Sea, a large inland sea in the southern hemisphere. During winter the sea freezes`
+	shipyard "Basic Ships"
+	shipyard "Navy Basics"
+	shipyard "Navy Advanced"
+	shipyard "Betelgeuse Basics"
+	shipyard "Lionheart Basics"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Lovelace Advanced"
+	outfitter "Syndicate Basics"
+	security 0.6
+	tribute 5000
+		threshold 7500
+		fleet "Large Republic" 18
+		
+planet Venus
+	attributes "near earth" research tourism
+	landscape land/venusterra
+	description `Venus was, until recently, a planet where surface temperatures were hot enough to melt lead. But with the dawn of the space age, many organizations focused on making the planet a second home for humans because its Earth-like characteristics. After half a millennia of work, the planet became safe to inhabit, but the atmosphere is still unbreathable without the assistance of respirators.`
+	description ` Since the formation of the Republic, Venus became home to the Interplanetary Court of Justice and also the Republic Intelligence Bureau. Venus is also known as the "Garden of the Republic" with its Biospheres crafted to absolute perfection, to the delight of tourists and locals alike. `
+	spaceport `Unlike Earth's spaceport the one in Venus is a tall structure that extends to the clouds by tall skyscrapers connected by bridges. Everything inside the structure has a garden like aesthetic and its surprisingly clean for such a busy spaceport. `
+	spaceport `Tourists are seen admiring the gardens in the balconies and many starships come and go taking passengers around the massive structure. In the distance you spot another spaceport, most likely for Navy and or Government. There's a series of elevators that connect to multiple MagLev stations which themselves connect to the ever growing network of urban settlements.`
+	"required reputation" 2
+	bribe 0.03
+	security 0.8
+	tribute 4000
+		threshold 7000
+		fleet "Large Republic" 14
