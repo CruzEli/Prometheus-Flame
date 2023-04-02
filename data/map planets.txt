@@ -147,11 +147,11 @@ planet Mars
 	landscape land/marsterra
 	description `Mars was humanity's first attempt at terraforming. When the first experiments yielded mixed results, the project was abandoned as far more hospitable planets were available to those with enough money to pay for interstellar travel.`
 	description `The loss of trade during the 25th century forced Earth to find a new breadbasket for its unparalleled population, prompting the development of greenhouses away from crowded Earth. Escaping famine, Mars received millions of settlers from Earth to set up a new life as farmers in the greenhouses. Successive terraforming efforts has made Mars more habitable and suitable for farming.`
-	description `Mars is also the headquarters of the Republic Navy, and besides Geminus, is the most important military base in all of human space.`
-	spaceport `The spaceport on Mars is situated next to the Southern Sea, a large inland sea in the southern hemisphere. During winter the sea freezes`
+	description `Mars was the headquarters of the Republic Navy, until Geminus took that position.`
+	spaceport `The spaceport on Mars is situated in the southern hemisphere next to a vast inland sea. the Port itself looks very utilitarian, with vast entrances that connect underground while the surface reserved for the cargo vessels. Large electric carts take and load containers 24/7.`
+	spaceport `In the hub, you can tell that this place has history, large historical recounts adorn the walls with events stretching back to the first settlers of this planet. the Bar looks even more ancient, with many navy personal coming to pass the nights before their next assignment.`
 	shipyard "Basic Ships"
 	shipyard "Navy Basics"
-	shipyard "Navy Advanced"
 	shipyard "Betelgeuse Basics"
 	shipyard "Lionheart Basics"
 	outfitter "Common Outfits"
