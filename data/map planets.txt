@@ -149,11 +149,10 @@ planet Mars
 	description `The loss of trade during the 25th century forced Earth to find a new breadbasket for its unparalleled population, prompting the development of greenhouses away from crowded Earth. Escaping famine, Mars received millions of settlers from Earth to set up a new life as farmers in the greenhouses. Successive terraforming efforts has made Mars more habitable and suitable for farming.`
 	description `Mars was the headquarters of the Republic Navy, until Geminus took that position.`
 	spaceport `The spaceport on Mars is situated in the southern hemisphere next to a vast inland sea. the Port itself looks very utilitarian, with vast entrances that connect underground while the surface reserved for the cargo vessels. Large electric carts take and load containers 24/7.`
-	spaceport `In the hub, you can tell that this place has history, large historical recounts adorn the walls with events stretching back to the first settlers of this planet. the Bar looks even more ancient, with many navy personal coming to pass the nights before their next assignment.`
+	spaceport `In the hub, you can tell that this place has much history, large historical recounts adorn the walls with events stretching back to the first settlers of this planet. The bar looks even more ancient, with many personnel coming to pass the nights before their next assignment.`
 	shipyard "Basic Ships"
 	shipyard "Navy Basics"
 	shipyard "Betelgeuse Basics"
-	shipyard "Lionheart Basics"
 	outfitter "Common Outfits"
 	outfitter "Ammo North"
 	outfitter "Lovelace Advanced"
@@ -167,7 +166,7 @@ planet Venus
 	attributes "near earth" research tourism
 	landscape land/venusterra
 	description `Venus was, until recently, a planet where surface temperatures were hot enough to melt lead. But with the dawn of the space age, many organizations focused on making the planet a second home for humans because its Earth-like characteristics. After half a millennia of work, the planet became safe to inhabit, but the atmosphere is still unbreathable without the assistance of respirators.`
-	description ` Since the formation of the Republic, Venus became home to the Interplanetary Court of Justice and also the Republic Intelligence Bureau. Venus is also known as the "Garden of the Republic" with its Biospheres crafted to absolute perfection, to the delight of tourists and locals alike. `
+	description `Since the formation of the Republic, Venus became home to the Interplanetary Court of Justice and also the Republic Intelligence Bureau. Venus is also known as the "Garden of the Republic" with its Biospheres crafted to absolute perfection, to the delight of tourists and locals alike. `
 	spaceport `Unlike Earth's spaceport the one in Venus is a tall structure that extends to the clouds by tall skyscrapers connected by bridges. Everything inside the structure has a garden like aesthetic and its surprisingly clean for such a busy spaceport. `
 	spaceport `Tourists are seen admiring the gardens in the balconies and many starships come and go taking passengers around the massive structure. In the distance you spot another spaceport, most likely for Navy and or Government. There's a series of elevators that connect to multiple MagLev stations which themselves connect to the ever growing network of urban settlements.`
 	"required reputation" 2
