@@ -107,6 +107,7 @@ system "Magna Comae"
 	habitable 625
 	belt 1236 7
 	haze _menu/haze-67
+	link Eteron
 	link Sol
 	asteroids "small rock" 28 2.677
 	asteroids "medium rock" 16 2.865
@@ -128,6 +129,8 @@ system "Magna Comae"
 	trade Plastic 259
 	fleet "Small Northern Merchants" 900
 	fleet "Large Northern Merchants" 1100
+	fleet "Small Republic" 2000
+	fleet "Large Republic" 6000
 	object
 		sprite star/g5
 			scale 2
@@ -654,6 +657,7 @@ system Merak
 		period 1501.33
 
 system Eteron
+	add link "Magna Comae"
 	object
 		sprite star/m8
 		period 10
@@ -729,11 +733,12 @@ planet Solace
 	remove attributes south
 
 system Ashadha
-	pos -392.931 455
+	pos -398.857 449.963
 	government Republic
 	arrival 1800
 	habitable 3000
 	link Albaldah
+	link "Delta Sagittarii"
 	link Rastaban
 	trade Clothing 272
 	trade Electronics 776
@@ -855,6 +860,8 @@ system Albaldah
 			period 14.534
 
 system "Delta Sagittarii"
+	add link Ashadha
+	remove link Rastaban
 	object
 		sprite star/k8
 		period 10
@@ -955,6 +962,7 @@ system Girtab
 
 system Rastaban
 	add link Ashadha
+	remove link "Delta Sagittarii"
 	object
 		sprite star/g0
 		period 10
@@ -984,7 +992,7 @@ system Rastaban
 		period 2943.27
 
 planet Swarajah
-	attributes "dirt belt" factory farming
+	attributes "dirt belt" factory farming urban
 	landscape land/fields13
 	description "Swarajah was one of the first colonies created by the Hindu peoples of Earth, becoming one of the more hevly populated planets in the south, rivalling Solace, however because of lack of infrastructure they were slower in industrializing so much of the surface is still filled with farms that feed into the densly packed cities."
 	spaceport "The spaceport is rather simplistic for such a populated planet, a simple concrete platform where large freighters come and go, further north you can spot the city it serves."
