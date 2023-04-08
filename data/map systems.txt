@@ -43,7 +43,7 @@ system Alniyat
 	add link Phanam
 
 system Alzyria
-	pos -908.391 467.936
+	pos -908.687 469.121
 	government Republic
 	habitable 912.6
 	belt 1426
@@ -233,7 +233,7 @@ system "Beta Lupi"
 	add link Alzyria
 
 system Bethlem
-	pos -805.309 494.261
+	pos -807.235 487.446
 	government Republic
 	habitable 1080
 	belt 1670
@@ -389,12 +389,11 @@ system Men
 			period 14.081
 
 system Phanam
-	pos -723.212 444.267
+	pos -724.101 446.934
 	government Republic
 	habitable 1250
 	belt 1588
 	link Alniyat
-	link Pherkad
 	link Thales
 	asteroids "large metal" 1 1.26
 	trade Clothing 292
@@ -441,7 +440,7 @@ system Phanam
 			distance 320.494
 			period 58.74
 			offset 359.673
-	object "Columbia"
+	object Columbia
 		sprite planet/ocean7
 		distance 3259.23
 		period 2105.12
@@ -492,9 +491,46 @@ system Phanam
 			offset 40.638
 
 system Pherkad
+	habitable 2135
 	add link Bethlem
-	add link Phanam
 	add link Thales
+	object
+		sprite star/a3
+			scale 2
+		period 10
+	object Solace
+		sprite planet/forest5-b
+			scale 0.8
+		distance 2405.885
+		period 70.492
+	object
+		sprite planet/rock12-b
+		distance 846.283
+		period 487.422
+	object
+		sprite planet/rock15-b
+		distance 1650.92
+		period 850.508
+	object
+		sprite planet/gas1-b
+		distance 3826.103
+		period 2088.25
+		object Prodos
+			sprite planet/station2
+				scale 0.5
+			distance 523.809
+			period 33.3
+		object
+			sprite planet/mercury
+			distance 274
+			period 15.996
+		object
+			sprite planet/lava2-b
+			distance 410
+			period 29.28
+	object
+		sprite planet/gas1
+		distance 5995.431
 
 system Thales
 	pos -770.745 426.361
@@ -513,6 +549,16 @@ system Thales
 	minables aluminum 3 3.296
 	minables copper 3 2.938
 	minables silver 19 2.879
+	trade Clothing 306
+	trade Electronics 764
+	trade Equipment 454
+	trade Food 201
+	trade "Heavy Metals" 987
+	trade Industrial 754
+	trade "Luxury Goods" 1221
+	trade Medical 858
+	trade Metal 331
+	trade Plastic 256
 	fleet "Small Southern Merchants" 1000
 	fleet "Small Southern Pirates" 1400
 	fleet "Large Southern Pirates" 2200
@@ -586,7 +632,7 @@ system Umyl
 		period 10
 	object
 		sprite planet/dust5
-		distance 362.081
+		distance 340.598
 		period 133.538
 		offset 8.227
 	object Inova
@@ -596,7 +642,7 @@ system Umyl
 		offset 57.195
 		object
 			sprite planet/luna
-			distance 163.228
+			distance 177.984
 			period 20.983
 			offset 246.459
 	object
@@ -675,60 +721,24 @@ system "Yed Prior"
 			distance 224
 			period 10.879
 
-# ======================== Republic
-
 system Sol
-	pos -400 100
-	government Republic
-	attributes "near earth"
-	arrival 1080
-	habitable 1080
-	belt 1529
-	haze _menu/haze-67
-	link "Alpha Centauri"
-	link Altair
-	link Caph
-	link Denebola
-	link Sirius
-	link Vega
-	asteroids "small rock" 30 2.691
-	asteroids "large rock" 50 5.0508
-	asteroids "medium metal" 4 2.8566
-	asteroids "large metal" 1 2.2356
-	minables iron 8 4.64499
-	trade Clothing 282
-	trade Electronics 745
-	trade Equipment 491
-	trade Food 505
-	trade "Heavy Metals" 849
-	trade Industrial 635
-	trade "Luxury Goods" 1159
-	trade Medical 480
-	trade Metal 402
-	trade Plastic 272
-	fleet "Small Northern Merchants" 300
-	fleet "Large Northern Merchants" 500
-	fleet "Paradise Merchants" 800
-	fleet "Small Republic" 600
-	fleet "Large Republic" 900
-	fleet "Republic Logistics" 2000
-	fleet "Small Core Merchants" 1000
-	fleet "Large Core Merchants" 2000
+	add link "Magna Comae"
+	add link "Tau Ceti"
 	object
 		sprite star/g0
 		period 10
 	object
 		sprite planet/mercury
 		distance 289.647
-		period 60.0000
+		period 60
 	object Venus
 		sprite planet/venus-terra
 		distance 533.534
-		period 150.000
+		period 150
 	object Earth
 		sprite planet/earth
 		distance 965.669
-		period 365.250
+		period 365.25
 		object Luna
 			sprite planet/luna
 			distance 201.24
@@ -740,7 +750,7 @@ system Sol
 	object
 		sprite planet/jupiter
 		distance 3339
-		period 2348.40
+		period 2348.4
 		object
 			sprite planet/io
 			distance 238.221
@@ -789,3 +799,4 @@ system Sol
 		sprite planet/neptune
 		distance 15730
 		period 24012.7
+

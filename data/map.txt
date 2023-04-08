@@ -1,0 +1,1109 @@
+system "Tau Ceti"
+	pos -419.282 62.588
+	government Republic
+	arrival 1190
+	habitable 625
+	belt 1943 6
+	belt 2041 10
+	haze _menu/haze-67
+	link Procyon
+	link Ran
+	link Sol
+	asteroids "medium rock" 9 4.91
+	asteroids "large rock" 8 3.01
+	asteroids "small metal" 8 2.64
+	asteroids "medium metal" 1 2.798
+	asteroids "large metal" 11 3.115
+	minables uranium 3 6.74
+	minables iron 6 6.822
+	trade Clothing 270
+	trade Electronics 733
+	trade Equipment 472
+	trade Food 519
+	trade "Heavy Metals" 943
+	trade Industrial 681
+	trade "Luxury Goods" 1293
+	trade Medical 563
+	trade Metal 453
+	trade Plastic 368
+	fleet "Small Northern Merchants" 700
+	fleet "Large Northern Merchants" 1300
+	fleet "Small Republic" 1800
+	fleet "Large Republic" 2200
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/lava4-b
+		distance 648.261
+		period 256.814
+	object
+		sprite planet/rock2
+		distance 269.311
+		period 79.784
+	object
+		sprite planet/cloud5-b
+		distance 1141.599
+		period 548.465
+	object
+		sprite planet/uranus-b
+		distance 2067.57
+		period 1504.216
+		object
+			sprite planet/europa-b
+			distance 259.095
+			period 153.926
+	object
+		sprite planet/gas8-b
+		distance 3650.454
+		period 3528.908
+		object
+			sprite planet/dust5
+			distance 339
+			period 163.349
+	object
+		sprite planet/gas16
+		distance 5627.486
+		period 6754.475
+		object
+			sprite planet/ice8
+			distance 239
+			period 139.668
+		object
+			sprite planet/ice7-b
+			distance 402
+			period 210.939
+
+system Procyon
+	add link "Tau Ceti"
+	object
+		sprite star/k3
+		period 10
+	object
+		sprite planet/rock4
+		distance 243.06
+		period 71.454
+	object
+		sprite planet/cloud4
+		distance 623.31
+		period 293.433
+	object
+		sprite planet/mars
+		distance 1201.15
+		period 784.963
+	object
+		sprite planet/ice4
+		distance 1558.96
+		period 1160.66
+	object
+		sprite planet/dust3-b
+		distance 3148.97
+		period 3332.01
+
+system "Magna Comae"
+	pos -351.518 66.148
+	government Republic
+	arrival 1070
+	habitable 625
+	belt 1236 7
+	haze _menu/haze-67
+	link Sol
+	asteroids "small rock" 28 2.677
+	asteroids "medium rock" 16 2.865
+	asteroids "large rock" 42 2.149
+	asteroids "small metal" 4 3.054
+	asteroids "medium metal" 19 3.242
+	asteroids "large metal" 42 2.036
+	minables neodymium 10 4.322
+	minables silver 12 4.049
+	trade Clothing 260
+	trade Electronics 765
+	trade Equipment 514
+	trade Food 539
+	trade "Heavy Metals" 815
+	trade Industrial 653
+	trade "Luxury Goods" 1156
+	trade Medical 493
+	trade Metal 427
+	trade Plastic 259
+	fleet "Small Northern Merchants" 900
+	fleet "Large Northern Merchants" 1100
+	object
+		sprite star/g5
+			scale 2
+		period 10
+	object
+		sprite planet/desert7-b
+		distance 276.922
+		period 139.691
+	object
+		sprite planet/rock12
+		distance 703.611
+		period 445.734
+		object
+			sprite planet/dust1
+			distance 235.827
+			period 141.06
+	object Mikhailnov
+		sprite planet/ice1-b
+		distance 1205.947
+		period 1399.113
+		object
+			sprite planet/lava0
+			distance 236.855
+			period 107.824
+	object
+		sprite planet/gas7
+		distance 3021.093
+		period 2972.669
+		object
+			sprite planet/rock7
+			distance 255
+			period 192.629
+		object
+			sprite planet/ice7
+			distance 407
+			period 214.887
+	object
+		sprite planet/gas4-b
+		distance 5105.435
+		period 8638.808
+	object
+		sprite planet/gas3
+		distance 8953.321
+		period 19307.23
+		object
+			sprite planet/rhea-b
+			distance 312
+			period 171.4
+
+system Caph
+	add link Teegarden
+	object
+		sprite star/g3
+		period 10
+	object
+		sprite planet/desert0
+		distance 160.16
+		period 30.644
+	object
+		sprite planet/lava3
+		distance 479.25
+		period 158.618
+	object Reunion
+		sprite planet/forest2
+		distance 885.61
+		period 398.45
+		object
+			sprite planet/mercury-b
+			distance 169
+			period 19.373
+	object
+		sprite planet/gas6
+		distance 1666.37
+		period 1028.41
+		object "Kraken Station"
+			sprite planet/station10
+				scale 0.5
+			distance 278
+			period 10.506
+	object
+		sprite planet/gas10
+		distance 2434.98
+		period 1816.57
+
+system Barnardi
+	pos -419.444 215.371
+	government Republic
+	arrival 700
+	habitable 35
+	link Rasalhague
+	link Vega
+	trade Clothing 316
+	trade Electronics 784
+	trade Equipment 627
+	trade Food 473
+	trade "Heavy Metals" 888
+	trade Industrial 760
+	trade "Luxury Goods" 1243
+	trade Medical 674
+	trade Metal 388
+	trade Plastic 294
+	object
+		sprite star/m-dwarf
+			scale 2
+		period 10
+	object
+		sprite planet/ice6
+		distance 395
+		period 530.789
+	object
+		sprite planet/io
+		distance 765
+		period 1430.6
+	object
+		sprite planet/desert5-b
+		distance 1169
+		period 2702.388
+	object
+		sprite planet/gas12
+		distance 2087
+		period 6446.287
+	object
+		sprite planet/gas14-b
+		distance 3372
+		period 13239.065
+		object
+			sprite planet/dust3-b
+			distance 227
+			period 129.282
+
+system Vega
+	add link Barnardi
+	object
+		sprite star/g0
+		distance 24.597
+		period 9.941
+		offset 180
+	object
+		sprite star/k8
+		distance 71.797
+		period 9.941
+	object
+		sprite planet/rock12
+		distance 314.696
+		period 58.643
+	object
+		sprite planet/gas12-b
+		distance 714.136
+		period 200.469
+	object Silver
+		sprite planet/cloud3
+		distance 1359.23
+		period 526.399
+		object
+			sprite planet/dust5-b
+			distance 169
+			period 22.891
+	object
+		sprite planet/gas8
+		distance 2981.84
+		period 1710.41
+
+system Teegarden
+	pos -296.593 103
+	government Syndicate
+	arrival 600
+	habitable 320
+	belt 1662 3
+	belt 2482 7
+	link Caph
+	link Fomalhaut
+	asteroids "small rock" 25 4.68
+	asteroids "medium rock" 18 3.229
+	asteroids "large rock" 21 2.948
+	asteroids "small metal" 17 3.042
+	asteroids "medium metal" 17 4.118
+	asteroids "large metal" 3 4.118
+	minables gold 1 5.743
+	minables aluminum 1 4.916
+	trade Clothing 320
+	trade Electronics 722
+	trade Equipment 363
+	trade Food 501
+	trade "Heavy Metals" 763
+	trade Industrial 593
+	trade "Luxury Goods" 1079
+	trade Medical 477
+	trade Metal 290
+	trade Plastic 286
+	fleet "Small Core Merchants" 800
+	fleet "Large Core Merchants" 900
+	fleet "Small Syndicate" 3200
+	fleet "Large Syndicate" 6000
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/desert2-b
+			scale 0.6
+		distance 264.577
+		period 118.895
+	object
+		sprite planet/desert5-b
+		distance 508.756
+		period 256.596
+	object
+		sprite planet/gas11-b
+		distance 1333.639
+		period 1089.036
+		object
+			sprite planet/rock17-b
+			distance 261
+			period 259.69
+		object
+			sprite planet/dust4-b
+			distance 363
+			period 215.099
+		object
+			sprite planet/dust0
+			distance 473
+			period 633.558
+	object
+		sprite planet/gas13
+		distance 2731.081
+		period 3191.441
+
+system Fomalhaut
+	add link Teegarden
+	object
+		sprite star/k3
+		period 10
+	object
+		sprite planet/lava4
+		distance 193.46
+		period 50.739
+	object Millrace
+		sprite planet/forest1
+		distance 437.87
+		period 172.771
+	object
+		sprite planet/gas9
+		distance 1365.12
+		period 951.064
+		object
+			sprite planet/lava2-b
+			distance 255
+			period 14.362
+	object
+		sprite planet/gas10-b
+		distance 2203.28
+		period 1950.1
+		object
+			sprite planet/oberon-b
+			distance 181
+			period 12.003
+		object
+			sprite planet/rock0-b
+			distance 320
+			period 28.216
+
+system Altair
+	object
+		sprite star/g5
+		distance 45.054
+		period 16.912
+		offset 180
+	object
+		sprite star/k8
+		distance 76.105
+		period 16.912
+	object
+		sprite planet/water0
+		distance 242.318
+		period 47.833
+	object
+		sprite planet/desert4
+		distance 468.568
+		period 128.619
+	object
+		sprite planet/rock13-b
+		distance 698.458
+		period 234.077
+	object Shiver
+		sprite planet/cloud8
+		distance 1260.95
+		period 567.799
+		object
+			sprite planet/rock17-b
+			distance 120
+			period 15
+	object
+		sprite planet/europa
+		distance 2223.95
+		period 1329.95
+
+planet Mikhailnov
+	landscape land/forest7
+	description "Mikhailnov is the second planet colonized by humanity before the Hyperdrive was invented. As the nations of earth battle for supremacy the Russian Empire wanted a colony to their name so the Ruler Gregory Mikhail funded with its own money the expedition to Magna Comae unfortunately Mikhail wouldnt survive the journey, and when settlers arrived they gave the planet his name to honor its deeds. "
+	description "Over the years Mikhailnov became an industrial world large enough that they started to build their own ships outside Earth, and so Yatsunov Shipyards was formed as a subsidiary of the Colony ship constructor eventually absorbing it and becoming the first Interstellar shipyard outside Earth."
+	spaceport "The spaceport is very old, as you can see how the city grew around it from the air. The port unlike others was made underground, consisting of a rows of rings where ships park over deep vertical tunnel where lifts move cargo to the surface."
+
+system Denebola
+	add link Baihu
+	add link Ran
+	object
+		sprite star/k5
+		distance 25.236
+		period 18.104
+		offset 180
+	object
+		sprite star/m8
+		distance 79.446
+		period 18.104
+	object
+		sprite planet/cloud3-b
+		distance 360.519
+		period 115.706
+	object Geyser
+		sprite planet/ice2
+		distance 628.609
+		period 266.401
+	object
+		sprite planet/rock0-b
+		distance 1051.05
+		period 575.971
+	object
+		sprite planet/gas1-b
+		distance 1550.34
+		period 1031.82
+		object
+			sprite planet/oberon
+			distance 254
+			period 14.277
+	object
+		sprite planet/io-b
+		distance 2927.23
+		period 2677.01
+
+system Ran
+	pos -467.06 46.653
+	government Republic
+	arrival 880
+	habitable 450
+	haze _menu/haze-67
+	link Denebola
+	link "Tau Ceti"
+	trade Clothing 293
+	trade Electronics 735
+	trade Equipment 453
+	trade Food 536
+	trade "Heavy Metals" 901
+	trade Industrial 602
+	trade "Luxury Goods" 1185
+	trade Medical 496
+	trade Metal 433
+	trade Plastic 346
+	fleet "Small Northern Merchants" 800
+	fleet "Large Northern Merchants" 1200
+	fleet "Small Republic" 1600
+	fleet "Large Republic" 3200
+	object
+		sprite star/k3
+		period 10
+	object
+		sprite planet/gas0-hot
+		distance 854.094
+		period 615.043
+		object
+			sprite planet/ocean4
+				scale 0.5
+			distance 250.313
+			period 127.578
+	object
+		sprite planet/gas1
+		distance 2009.628
+		period 1698.741
+	object
+		sprite planet/dust4
+			scale 2
+		distance 3085.84
+		period 3232.316
+	object
+		sprite planet/gas11-b
+		distance 4777.003
+		period 6225.683
+		object
+			sprite planet/dust1
+			distance 294
+			period 156.783
+	object
+		sprite planet/browndwarf-y
+		distance 7178.475
+		period 11468.379
+		object
+			sprite planet/oberon-b
+			distance 281
+			period 290.104
+		object
+			sprite planet/rock3
+			distance 401
+			period 303.541
+		object
+			sprite "planet/asteroid base"
+			distance 589
+			period 374.102
+	object
+		sprite planet/rock1
+			scale 0.4
+		distance 382.825
+		period 219.708
+
+system Baihu
+	pos -504.379 95.185
+	government Republic
+	habitable 700
+	belt 1993 3
+	haze _menu/haze-67
+	link Denebola
+	link Merak
+	asteroids "small rock" 6 3.226
+	asteroids "medium rock" 2 4.493
+	asteroids "large rock" 1 4.666
+	asteroids "small metal" 4 4.32
+	asteroids "medium metal" 177 5.76
+	asteroids "large metal" 45 3.802
+	minables neodymium 2 6.849
+	minables aluminum 2 9.52
+	trade Clothing 257
+	trade Electronics 688
+	trade Equipment 418
+	trade Food 492
+	trade "Heavy Metals" 854
+	trade Industrial 619
+	trade "Luxury Goods" 1143
+	trade Medical 522
+	trade Metal 459
+	trade Plastic 303
+	fleet "Small Southern Merchants" 500
+	fleet "Small Northern Merchants" 700
+	fleet "Large Southern Merchants" 1800
+	fleet "Large Northern Merchants" 2400
+	fleet "Small Republic" 1800
+	fleet "Large Republic" 5200
+	object
+		sprite star/g3
+		period 10
+	object
+		sprite planet/dust6
+		distance 236.537
+		period 131.59
+		object
+			sprite planet/ice0
+			distance 122.559
+			period 108.524
+	object
+		sprite planet/ocean8
+		distance 777.02
+		period 704.488
+		object
+			sprite planet/rock17
+			distance 186.605
+			period 369.203
+	object
+		sprite planet/cloud2-b
+		distance 1362.417
+		period 1368.027
+	object
+		sprite planet/gas6-b
+		distance 2693.348
+		period 4307.674
+		object
+			sprite planet/rock14-b
+			distance 389
+			period 200.79
+		object
+			sprite planet/dust7
+			distance 525
+			period 454.715
+		object
+			sprite planet/ice8-b
+			distance 687
+			period 680.669
+	object
+		sprite planet/ice0
+			scale 4
+		distance 5830.536
+		period 9955.63
+	object
+		sprite planet/miranda-b
+			scale 4
+		distance 9765.447
+		period 22184.605
+
+system Merak
+	add link Baihu
+	object
+		sprite star/g5
+		distance 42.093
+		period 11.229
+	object
+		sprite star/k0
+		distance 53.69
+		period 11.229
+		offset 180
+	object
+		sprite planet/dust6
+		distance 244.494
+		period 45.796
+	object
+		sprite planet/lava6-b
+		distance 556.134
+		period 157.105
+	object
+		sprite planet/lava0
+		distance 789.024
+		period 265.495
+	object "New China"
+		sprite planet/forest4-b
+		distance 1107.51
+		period 441.513
+	object
+		sprite planet/luna
+		distance 2504.4
+		period 1501.33
+
+system Eteron
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/rock9
+		distance 358.76
+		period 233.937
+		object
+			sprite planet/ganymede
+			distance 181
+			period 27.787
+	object
+		sprite planet/uranus
+		distance 1126.76
+		period 1302.08
+		object
+			sprite planet/dust1-b
+			distance 244
+			period 15.377
+		object
+			sprite planet/mercury
+			distance 366
+			period 28.249
+	object
+		sprite planet/ice0-b
+		distance 1751.6
+		period 2523.74
+	object
+		sprite planet/gas17-b
+		distance 2229.85
+		period 3624.98
+
+system Sirius
+	object
+		sprite star/f5
+		distance 8.696
+		period 12.099
+		offset 180
+	object
+		sprite star/m8
+		distance 110.475
+		period 12.099
+	object
+		sprite planet/lava4
+		distance 338.347
+		period 57.879
+	object
+		sprite planet/rock6-b
+		distance 640.587
+		period 150.779
+	object
+		sprite planet/dust3
+		distance 1158.2
+		period 366.563
+	object Relic
+		sprite planet/dust4
+		distance 1807.21
+		period 714.475
+	object
+		sprite planet/tethys
+		distance 2162.3
+		period 935.078
+
+planet Prodos
+	attributes border station
+	landscape land/station10
+	description "Prodos station was one of the three stations built during the Caravan Era and was a symbol of progress for this region of space, the pirate assault of 2873 left the Station partially damaged and many of its residents escaping to Solace."
+	bribe 0.05
+	security 0.6
+
+planet Solace
+	add attributes border
+	remove attributes south
+
+system Ashadha
+	pos -392.931 455
+	government Republic
+	arrival 1800
+	habitable 3000
+	link Albaldah
+	link Rastaban
+	trade Clothing 272
+	trade Electronics 776
+	trade Equipment 514
+	trade Food 178
+	trade "Heavy Metals" 1046
+	trade Industrial 798
+	trade "Luxury Goods" 1258
+	trade Medical 807
+	trade Metal 340
+	trade Plastic 324
+	fleet "Small Southern Merchants" 900
+	fleet "Large Southern Merchants" 1500
+	fleet "Small Southern Pirates" 4000
+	fleet "Large Southern Pirates" 7000
+	fleet "Small Militia" 1000
+	fleet "Large Militia" 2000
+	object
+		sprite star/k-giant
+			scale 2
+		period 10
+	object
+		sprite planet/rock14
+		distance 953.555
+		period 215.039
+	object
+		sprite planet/venus-b
+		distance 1423.871
+		period 392.379
+	object
+		sprite planet/rock5-b
+		distance 2348.878
+		period 831.362
+	object
+		sprite planet/gas4
+		distance 4763.395
+		period 2400.901
+		object
+			sprite planet/ice7-b
+			distance 288
+			period 127.911
+		object
+			sprite planet/desert4
+			distance 455
+			period 459.123
+		object
+			sprite planet/dust0
+			distance 603
+			period 911.949
+	object Swarajah
+		sprite planet/forest6-b
+			scale 1.8
+		distance 3135.993
+		period 1282.513
+		offset 33
+		object
+			sprite planet/ice2
+				scale 0.8
+			distance 398.959
+			period 43.3
+	object
+		sprite planet/gas11
+			scale 1.4
+		distance 7187.737
+		period 4450.283
+		object
+			sprite planet/ice2-b
+				scale 1.4
+			distance 806.818
+			period 356
+			offset 3
+		object
+			sprite planet/dust1
+				scale 1.6
+			distance 473.191
+			period 94
+
+system Albaldah
+	add link Ashadha
+	add link Moksha
+	object
+		sprite star/k5
+		distance 20.877
+		period 13.622
+		offset 180
+	object
+		sprite star/m8
+		distance 65.724
+		period 13.622
+	object
+		sprite planet/ice6
+			scale 0.7
+		distance 261.435
+		period 71.452
+	object Asrayapur
+		sprite planet/ocean2-b
+			scale 0.8
+		distance 531.955
+		period 198.745
+	object
+		sprite planet/tethys
+		distance 768.685
+		period 360.237
+	object
+		sprite planet/gas16-b
+		distance 1670.9
+		period 1154.49
+		object
+			sprite planet/lava1-b
+			distance 204
+			period 14.362
+	object
+		sprite planet/uranus-b
+		distance 3405.54
+		period 3359.27
+		object
+			sprite planet/luna
+			distance 235
+			period 14.534
+
+system "Delta Sagittarii"
+	object
+		sprite star/k8
+		period 10
+	object "New Portland"
+		sprite planet/ocean6
+		distance 309.64
+		period 113.303
+	object
+		sprite planet/uranus
+		distance 911.2
+		period 571.978
+		object
+			sprite planet/dust2-b
+			distance 226
+			period 13.707
+		object
+			sprite planet/rock0-b
+			distance 388
+			period 30.833
+	object
+		sprite planet/gas9
+		distance 2036.41
+		period 1910.98
+		object
+			sprite planet/rock3-b
+			distance 246
+			period 13.608
+		object
+			sprite planet/lava2
+			distance 407
+			period 28.959
+
+system Eltanin
+	object
+		sprite star/k3
+		period 10
+	object
+		sprite planet/cloud5
+		distance 258.11
+		period 78.192
+	object
+		sprite planet/rock4-b
+		distance 641.75
+		period 306.55
+		object
+			sprite planet/tethys
+			distance 141
+			period 13.671
+	object
+		sprite planet/gas13
+		distance 1242.91
+		period 826.253
+	object
+		sprite planet/ice8-b
+		distance 1843.16
+		period 1492.1
+	object
+		sprite planet/rock17
+		distance 2165.97
+		period 1900.78
+
+system Girtab
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/cloud4
+		distance 182.29
+		period 29.957
+	object
+		sprite planet/venus
+		distance 449.54
+		period 116.011
+	object Harmony
+		sprite planet/ocean1
+		distance 967.03
+		period 366.022
+		object
+			sprite planet/rock14-b
+			distance 184
+			period 23.868
+	object
+		sprite planet/gas15
+		distance 2147.19
+		period 1211.02
+		object
+			sprite planet/ice8-b
+			distance 199
+			period 13.837
+		object
+			sprite planet/dust5
+			distance 334
+			period 30.087
+		object
+			sprite planet/luna-b
+			distance 501
+			period 55.274
+
+system Rastaban
+	add link Ashadha
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/ice6-b
+		distance 177.64
+		period 28.818
+	object
+		sprite planet/dust6
+		distance 398.4
+		period 96.789
+	object Dancer
+		sprite planet/ocean6
+		distance 933.4
+		period 347.096
+		object
+			sprite planet/ice7
+			distance 192
+			period 20.189
+	object
+		sprite planet/gas1
+		distance 1677.16
+		period 836.006
+	object
+		sprite planet/tethys-b
+		distance 3881.4
+		period 2943.27
+
+planet Swarajah
+	attributes "dirt belt" factory farming
+	landscape land/fields13
+	description "Swarajah was one of the first colonies created by the Hindu peoples of Earth, becoming one of the more hevly populated planets in the south, rivalling Solace, however because of lack of infrastructure they were slower in industrializing so much of the surface is still filled with farms that feed into the densly packed cities."
+	spaceport "The spaceport is rather simplistic for such a populated planet, a simple concrete platform where large freighters come and go, further north you can spot the city it serves."
+
+planet Asrayapur
+	attributes "dirt belt" farming frontier textiles
+	landscape land/forest0
+	description "Asrayapur was first settled less than a century ago, and the settlers are still struggling to establish themselves. The last planet settled by the Hindu people, its an hospitable climate, but the amount of labor needed to clear forests and to plow rocky fields has meant that the towns here can only grow very slowly."
+	description "The farms grow both food crops and cotton, and very recently they have begun manufacturing their own textiles instead of just shipping the raw cotton off-world for processing."
+	spaceport "Asrayapur's spaceport is a ring of low wooden buildings around a wide landing area paved with concrete slabs. Around the perimeter carts of trade goods are driven, some being pulled by tractors and others, by horses or oxen. You even think you see a few carts being pulled by water buffalo."
+	spaceport "Most of the buildings are for storage, but from somewhere nearby you can smell fresh-baked bread."
+	outfitter "Ammo South"
+	security 0.05
+	tribute 200
+		threshold 2000
+		fleet "Small Militia" 16
+
+system Moksha
+	pos -331.551 520.144
+	government Republic
+	habitable 489.183
+	belt 1138 4
+	link Albaldah
+	asteroids "small rock" 2 3.931
+	asteroids "large rock" 2 3.528
+	asteroids "medium metal" 2 3.427
+	asteroids "large metal" 3 3.629
+	minables copper 2 6.993
+	trade Clothing 198
+	trade Electronics 749
+	trade Equipment 567
+	trade Food 200
+	trade "Heavy Metals" 1012
+	trade Industrial 877
+	trade "Luxury Goods" 1245
+	trade Medical 763
+	trade Metal 273
+	trade Plastic 377
+	fleet "Small Southern Merchants" 900
+	fleet "Large Southern Merchants" 1700
+	fleet Quarg 5000
+	fleet "Small Southern Pirates" 4000
+	fleet "Large Southern Pirates" 6000
+	object
+		sprite star/m0
+		distance 180.659
+		period 74.765
+		offset 180
+	object
+		sprite star/k8
+			scale 2
+		distance 41.841
+		period 74.765
+	object
+		sprite planet/desert3
+		distance 362.663
+		period 124.905
+	object
+		sprite planet/gas0-hot
+		distance 895
+		period 484.238
+	object Margad
+		sprite planet/cloud5-b
+			scale 0.8
+		distance 1577.482
+		period 1133.107
+	object
+		sprite planet/gas12-b
+		distance 2591
+		period 2385.203
+
+planet Margad
+	attributes farming frontier religious south
+	landscape land/mountain2
+	description "The second planet inabited by the Hindu people, Margad was settled as a spiritual home for Hinduism, as years passed the small settlement became a colony with millions of residents settling here. Recently it became a tourist spot and the many temples constructed recieve thousands of visitors every year however there are still many more communities who are truly secluded from the rest of the world."
+	spaceport "The spaceport is on quite the distance from the capital, you can see a few buildings on the horizon but not much more. The port itself is a circular path with smaller circles acting as platforms to the starships, from the air it looks like a symbol but you cant recognize it."
+	spaceport "    At the center of the circle theres a terminal where people meet before its next destination. Many vehicles station outside come and go taking and droping people before going to the city. In terrace is a beautiful large garden where people can watch the ships take off.  "
+	government Republic
+	security 0
+
+system Sadr
+	object
+		sprite star/a5
+		distance 6.268
+		period 6.973
+	object
+		sprite star/m3
+		distance 99.336
+		period 6.973
+		offset 180
+	object
+		sprite planet/callisto
+		distance 280.83
+		period 32.142
+	object
+		sprite planet/rock3-b
+		distance 543.84
+		period 86.62
+	object
+		sprite planet/desert6-b
+		distance 876.65
+		period 177.276
+		object
+			sprite planet/rock17-b
+			distance 150
+			period 17.568
+	object
+		sprite planet/desert5
+		distance 1311.09
+		period 324.236
+	object
+		sprite planet/miranda
+		distance 2553.34
+		period 881.202
+
+system Rasalhague
+	add link Barnardi
+
+system Porrima
+
+system Muphrid
+

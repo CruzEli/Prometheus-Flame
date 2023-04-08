@@ -1,35 +1,18 @@
-# Copyright (c) 2023 by Epsil Astra
-#
-# Endless Sky is free software: you can redistribute it and/or modify it under the
-# terms of the GNU General Public License as published by the Free Software
-# Foundation, either version 3 of the License, or (at your option) any later version.
-#
-# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
-# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE. See the GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License along with
-# this program. If not, see <https://www.gnu.org/licenses/>.
-
-# ========================================================
-#						Borderworlds
-# ========================================================
-
 planet Phenyria
-	attributes research factory border
+	attributes border factory research
 	landscape land/city25
-	description `Phenyria is an earth-like world orbiting Alniyat, however the planet is in the far edge of its habitable zone making its climate very Earth-Like although much colder even on the equator, despite this Phenyria is home for one-point-five hundred million people from all regions of space and thanks to its vast resources, its a major industrial and scientific hub in the South. `
-	description `	The largest industries in the planet include Paradeigm Group who employ a tenth of the worlds population, and Ikaros Engineering who's headquarters reside on Ilmyria and develop all kinds of outfits.`
-	spaceport `The spaceport is located inside the main city near the government house, and is divided into two sections called rings. The innermost ring is the oldest, built when the planet was first discovered it was the end point to various caravans however it isn't capable of handling most modern freighters of today and its used for smaller star ships, the oldest facilities were closed off are being currently converted into a museum. The outermost ring, built 100 years ago, is one of the largest spaceports in the South, handling everything from food convoys to shipbuilding parts.`
-	spaceport `	Slightly outside the spaceport there is a smaller port owned by Paradigm that handles all sorts of equipment, occasionally you can see bright flashes inside one of the hangars but you cant make heads or tails of what is it.`
-	shipyard "Paradeigm Basics"
+	description "Phenyria is an earth-like world orbiting Alniyat, however the planet is in the far edge of its habitable zone making its climate very Earth-Like although much colder even on the equator, despite this Phenyria is home for one-point-five hundred million people from all regions of space and thanks to its vast resources, its a major industrial and scientific hub in the South. "
+	description "The largest industries in the planet include Paradeigm Group who employ a tenth of the worlds population, and Ikaros Engineering who's headquarters reside on Ilmyria and develop all kinds of outfits."
+	spaceport "The spaceport is located inside the main city near the government house, and is divided into two sections called rings. The innermost ring is the oldest, built when the planet was first discovered it was the end point to various caravans however it isn't capable of handling most modern freighters of today and its used for smaller star ships, the oldest facilities were closed off are being currently converted into a museum. The outermost ring, built 100 years ago, is one of the largest spaceports in the South, handling everything from food convoys to shipbuilding parts."
+	spaceport "Slightly outside the spaceport there is a smaller port owned by Paradigm that handles all sorts of equipment, occasionally you can see bright flashes inside one of the hangars but you cant make heads or tails of what is it."
 	shipyard "Basic Ships"
-	shipyard "Southbound Basics"
+	shipyard "Paradeigm Basics"
 	shipyard "Southbound Advanced"
+	shipyard "Southbound Basics"
+	outfitter "Ammo South"
+	outfitter "Common Outfits"
 	outfitter "Delta V Advanced"
 	outfitter "Kraz Basics"
-	outfitter "Common Outfits"
-	outfitter "Ammo South"
 	bribe 0.03
 	security 0.4
 	tribute 1500
@@ -37,16 +20,16 @@ planet Phenyria
 		fleet "Large Militia" 18
 
 planet Ilmyria
-	attributes research tourism moon border
+	attributes border moon research tourism
 	landscape land/snow_village
-	description `Ilmyria is the first moon of Phenyria and the only one that is habitable for humans. In the early days of the South, Ilmyria was used as a stopgap for repairing ships in long hauls. As things quiet down the moon settlement found new life as a tourist destination and education home especially for the increasing middle class of the Dirt Belt and beyond. As such more than half of its residents are off-world students. Today the moon is home to various ski resorts, mountain climbing and winter homes courtesy of the government who provides substantial benefits to workers as well as large universities which attract many to learn.`
-	spaceport `Although not outdated in any sense, the spaceport has a distinctive vintage style from the early days of exploration. The main terminal is littered with advertisements for many resorts and schools in the zone and many buses come and go from the terminal. The port is located some kilometers of the main settlement which resembles the alpine villages that you would see on some movies. Just outside the the village there is a large education campus where many students qualify for the many industries in the system.`
+	description "Ilmyria is the first moon of Phenyria and the only one that is habitable for humans. In the early days of the South, Ilmyria was used as a stopgap for repairing ships in long hauls. As things quiet down the moon settlement found new life as a tourist destination and education home especially for the increasing middle class of the Dirt Belt and beyond. As such more than half of its residents are off-world students. Today the moon is home to various ski resorts, mountain climbing and winter homes courtesy of the government who provides substantial benefits to workers as well as large universities which attract many to learn."
+	spaceport "Although not outdated in any sense, the spaceport has a distinctive vintage style from the early days of exploration. The main terminal is littered with advertisements for many resorts and schools in the zone and many buses come and go from the terminal. The port is located some kilometers of the main settlement which resembles the alpine villages that you would see on some movies. Just outside the the village there is a large education campus where many students qualify for the many industries in the system."
 	tribute 200
 		threshold 1500
 		fleet "Small Militia" 15
-		
+
 planet Nymbu
-	attributes research border
+	attributes border research
 	landscape land/strato01
 	description "Nymbu is a cloudy world, during the early years it was thought that it was an earth-like world but later atmospheric analysis showed that it was closer to Venus in its composition, very uninhabitable for the resources of the colony ship, so early efforts focused on its icier brother Phenyria for immediate colonization."
 	description "While it was ignored for most of of the System history, when Caravans arrived, there was a qualitative jump in industrial capacity, to the point that a new attempt was made to colonize Nymbu. To do this a new type of Colony ship, the Cloud City, was constructed, the first and only one being established here."
@@ -59,119 +42,104 @@ planet Nymbu
 planet "Daedalus Station"
 	attributes south station
 	landscape land/station10
+	music ambient/machinery
 	description `"Daedalus Station is a joint use station by Paradigm and Ikaros for research and , entrance is strictly prohibited to outsiders and only the most trusted of people get access to its facilities.`
 	"required reputation" 20
 	bribe 0.05
 	security 0.4
-	music ambient/machinery
 	tribute 900
 		threshold 3000
 		fleet "Large Militia" 14
-		
-# ============= Aurelius		
 
 planet Austral
-	attributes farming frontier tourism border
+	attributes border farming frontier tourism
 	landscape land/cordillera
-	#description by The_Legendary_M (discord #4332)
-	description `Austral is a quiet, Earth-like world with a single large continent and a few islands surrounded by the ocean. Its first settlers, wanting to escape the crowdedness that plagued Earth, scattered across the continent, and established thousands of small independent villages instead of large cities that are more common elsewhere.`
-	description `Being an idyllic agrarian world, Austral is a popular retirement destination, with a population number reaching a hundred million recently. Due to the planet’s remoteness and the decentralized nature of settlements, most Austral villages are not shown on maps. This makes Austral a perfect hideout for wanted individuals across the galaxy, who wish to disappear among the numerous uncatalogued settlements in the middle of the vast continent.`
-	spaceport `The spaceport consist of a small section of City near the a large body of water, from there ships land and discharge whatever they are carrying to a Warehouse where when its sorted is put on a transport bet land, sea, or air to its destination.`
+	description "Austral is a quiet, Earth-like world with a single large continent and a few islands surrounded by the ocean. Its first settlers, wanting to escape the crowdedness that plagued Earth, scattered across the continent, and established thousands of small independent villages instead of large cities that are more common elsewhere."
+	description "Being an idyllic agrarian world, Austral is a popular retirement destination, with a population number reaching a hundred million recently. Due to the planet’s remoteness and the decentralized nature of settlements, most Austral villages are not shown on maps. This makes Austral a perfect hideout for wanted individuals across the galaxy, who wish to disappear among the numerous uncatalogued settlements in the middle of the vast continent."
+	spaceport "The spaceport consist of a small section of City near the a large body of water, from there ships land and discharge whatever they are carrying to a Warehouse where when its sorted is put on a transport bet land, sea, or air to its destination."
 	security 0.1
 	tribute 900
 		threshold 4500
 		fleet "Large Militia" 12
-	
-# ============= Bethlem
-	
-planet Misoes
-	attributes farming frontier religious border
-	landscape land/valley8
-	description `TBD`
-	spaceport `TBD`
-	security 0
-	
-	
-		
-# ============= Phanam		
 
-planet "Columbia"
-	attributes factory tourism urban border
+planet Misoes
+	attributes border farming frontier religious
+	landscape land/valley8
+	description TBD
+	spaceport TBD
+	security 0
+
+planet Columbia
+	attributes border factory tourism urban
 	landscape land/city24
-	description `TBD`
-	spaceport `TBD`
+	description "New columbia was the second of the planets colonized in this system, established as a "
+	spaceport TBD
+	outfitter "Ammo South"
+	outfitter "Common Outfits"
 	outfitter "Delta V Advanced"
 	outfitter "Kraz Basics"
-	outfitter "Common Outfits"
-	outfitter "Ammo South"
 	bribe 0.03
 	security 0.2
 	tribute 1000
-		threshold 4000
 		fleet "Large Militia" 14
-		
+
 planet "San Paolo"
-	attributes factory tourism farming border
+	attributes border factory farming tourism
 	landscape land/city29
-	description `San Paolo is a tropical world, dominated by vast jungles that stretch across continents, in the plains and valleys where the trees don't dominate the landscape exist many settlements and farms that reach millions of kilometers, all to feed the ever increasing population of the urban centers, where the skyline is dominated by skyscrapers who house millions working in some variation of goods and services or manufacturing. San Paolo is also home to Taurus-Ikaros Defense Group, one of the largest weapon manufacturers in the south.`
-	description `As the first planet to be settled in this region, its customs and culture differ somewhat from the other planets in the Borderworlds but its still recognizable. Many people from all corners of space come here for the pristine beaches here during the summer. `
-	spaceport `The spaceport is located in a lake near the capital, being constructed recently to accommodate the large influx of tourists and immigrants. the platforms are shaped like a ring and there are dozens of them. The Terminal here is lavish, containing hotels, shopping malls and stores having people occupied until their next destination.`
-	spaceport `A bit to the west there's the storehouse where millions of containers are packed, organized and distributed, most of it is automatic with operators only supervising the most critical tasks.`
+	description "San Paolo is a tropical world, dominated by vast jungles that stretch across continents, in the plains and valleys where the trees don't dominate the landscape exist many settlements and farms that reach millions of kilometers, all to feed the ever increasing population of the urban centers, where the skyline is dominated by skyscrapers who house millions working in some variation of goods and services or manufacturing. San Paolo is also home to Taurus-Ikaros Defense Group, one of the largest weapon manufacturers in the south."
+	description "As the first planet to be settled in this region, its customs and culture differ somewhat from the other planets in the Borderworlds but its still recognizable. Many people from all corners of space come here for the pristine beaches here during the summer. "
+	spaceport "The spaceport is located in a lake near the capital, being constructed recently to accommodate the large influx of tourists and immigrants. the platforms are shaped like a ring and there are dozens of them. The Terminal here is lavish, containing hotels, shopping malls and stores having people occupied until their next destination."
+	spaceport "A bit to the west there's the storehouse where millions of containers are packed, organized and distributed, most of it is automatic with operators only supervising the most critical tasks."
+	outfitter "Ammo South"
 	outfitter "Common Outfits"
 	outfitter "Delta V Basics"
 	outfitter "Kraz Basics"
-	outfitter "Ammo South"
 	bribe 0.02
 	security 0.2
 	tribute 900
 		threshold 3500
 		fleet "Large Militia" 12
-		
-# ============= Umyl
 
 planet Inova
 	attributes uninhabited
 	landscape land/beach1
-	description `TBD`
-	spaceport `TBD`
-	"required reputation" -1000
+	description TBD
+	spaceport TBD
 	government Uninhabited
+	"required reputation" -1000
 	security 0
-	
-# ========================================================
-#						Republic
-# ========================================================
 
 planet Mars
-	attributes "near earth" tourism factory farming
+	add attributes factory
 	landscape land/marsterra
-	description `Mars was humanity's first attempt at terraforming. When the first experiments yielded mixed results, the project was abandoned as far more hospitable planets were available to those with enough money to pay for interstellar travel.`
-	description `The loss of trade during the 25th century forced Earth to find a new breadbasket for its unparalleled population, prompting the development of greenhouses away from crowded Earth. Escaping famine, Mars received millions of settlers from Earth to set up a new life as farmers in the greenhouses. Successive terraforming efforts has made Mars more habitable and suitable for farming.`
-	description `Mars was the headquarters of the Republic Navy, until Geminus took that position.`
-	spaceport `The spaceport on Mars is situated in the southern hemisphere next to a vast inland sea. the Port itself looks very utilitarian, with vast entrances that connect underground while the surface reserved for the cargo vessels. Large electric carts take and load containers 24/7.`
-	spaceport `In the hub, you can tell that this place has much history, large historical recounts adorn the walls with events stretching back to the first settlers of this planet. The bar looks even more ancient, with many personnel coming to pass the nights before their next assignment.`
+	description "Mars was humanity's first attempt at terraforming. When the first experiments yielded mixed results, the project was abandoned as far more hospitable planets were available to those with enough money to pay for interstellar travel."
+	description "The loss of trade during the 25th century forced Earth to find a new breadbasket for its unparalleled population, prompting the development of greenhouses away from crowded Earth. Escaping famine, Mars received millions of settlers from Earth to set up a new life as farmers in the greenhouses. Successive terraforming efforts has made Mars more habitable and suitable for farming."
+	description "Mars was the headquarters of the Republic Navy, until Geminus took that position."
+	spaceport "The spaceport on Mars is situated in the southern hemisphere next to a vast inland sea. the Port itself looks very utilitarian, with vast entrances that connect underground while the surface reserved for the cargo vessels. Large electric carts take and load containers 24/7."
+	spaceport "In the hub, you can tell that this place has much history, large historical recounts adorn the walls with events stretching back to the first settlers of this planet. The bar looks even more ancient, with many personnel coming to pass the nights before their next assignment."
 	shipyard "Basic Ships"
-	shipyard "Navy Basics"
 	shipyard "Betelgeuse Basics"
-	outfitter "Common Outfits"
+	shipyard "Navy Basics"
 	outfitter "Ammo North"
+	outfitter "Common Outfits"
 	outfitter "Lovelace Advanced"
 	outfitter "Syndicate Basics"
 	security 0.6
 	tribute 5000
 		threshold 7500
 		fleet "Large Republic" 18
-		
+
 planet Venus
 	attributes "near earth" research tourism
 	landscape land/venusterra
-	description `Venus was, until recently, a planet where surface temperatures were hot enough to melt lead. But with the dawn of the space age, many organizations focused on making the planet a second home for humans because its Earth-like characteristics. After half a millennia of work, the planet became safe to inhabit, but the atmosphere is still unbreathable without the assistance of respirators.`
+	description "Venus was, until recently, a planet where surface temperatures were hot enough to melt lead. But with the dawn of the space age, many organizations focused on making the planet a second home for humans because its Earth-like characteristics. After half a millennia of work, the planet became safe to inhabit, but the atmosphere is still unbreathable without the assistance of respirators."
 	description `Since the formation of the Republic, Venus became home to the Interplanetary Court of Justice and also the Republic Intelligence Bureau. Venus is also known as the "Garden of the Republic" with its Biospheres crafted to absolute perfection, to the delight of tourists and locals alike. `
-	spaceport `Unlike Earth's spaceport the one in Venus is a tall structure that extends to the clouds by tall skyscrapers connected by bridges. Everything inside the structure has a garden like aesthetic and its surprisingly clean for such a busy spaceport. `
-	spaceport `Tourists are seen admiring the gardens in the balconies and many starships come and go taking passengers around the massive structure. In the distance you spot another spaceport, most likely for Navy and or Government. There's a series of elevators that connect to multiple MagLev stations which themselves connect to the ever growing network of urban settlements.`
+	spaceport "Unlike Earth's spaceport the one in Venus is a tall structure that extends to the clouds by tall skyscrapers connected by bridges. Everything inside the structure has a garden like aesthetic and its surprisingly clean for such a busy spaceport. "
+	spaceport "Tourists are seen admiring the gardens in the balconies and many starships come and go taking passengers around the massive structure. In the distance you spot another spaceport, most likely for Navy and or Government. There's a series of elevators that connect to multiple MagLev stations which themselves connect to the ever growing network of urban settlements."
 	"required reputation" 2
 	bribe 0.03
 	security 0.8
 	tribute 4000
 		threshold 7000
 		fleet "Large Republic" 14
+
