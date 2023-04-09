@@ -1,13 +1,12 @@
 system "Tau Ceti"
-	pos -419.282 62.588
+	pos -416.615 59.477
 	government Republic
 	arrival 1190
 	habitable 625
 	belt 1943 6
 	belt 2041 10
 	haze _menu/haze-67
-	link Procyon
-	link Ran
+	link Baihu
 	link Sol
 	asteroids "medium rock" 9 4.91
 	asteroids "large rock" 8 3.01
@@ -75,7 +74,6 @@ system "Tau Ceti"
 			period 210.939
 
 system Procyon
-	add link "Tau Ceti"
 	object
 		sprite star/k3
 		period 10
@@ -101,13 +99,14 @@ system Procyon
 		period 3332.01
 
 system "Magna Comae"
-	pos -351.518 66.148
+	pos -348.407 66.592
 	government Republic
 	arrival 1070
 	habitable 625
 	belt 1236 7
 	haze _menu/haze-67
-	link Eteron
+	link Caph
+	link Sirius
 	link Sol
 	asteroids "small rock" 28 2.677
 	asteroids "medium rock" 16 2.865
@@ -181,6 +180,7 @@ system "Magna Comae"
 			period 171.4
 
 system Caph
+	add link "Magna Comae"
 	add link Teegarden
 	object
 		sprite star/g3
@@ -427,14 +427,12 @@ system Altair
 		period 1329.95
 
 planet Mikhailnov
-	landscape land/forest7
+	landscape land/city26
 	description "Mikhailnov is the second planet colonized by humanity before the Hyperdrive was invented. As the nations of earth battle for supremacy the Russian Empire wanted a colony to their name so the Ruler Gregory Mikhail funded with its own money the expedition to Magna Comae unfortunately Mikhail wouldnt survive the journey, and when settlers arrived they gave the planet his name to honor its deeds. "
 	description "Over the years Mikhailnov became an industrial world large enough that they started to build their own ships outside Earth, and so Yatsunov Shipyards was formed as a subsidiary of the Colony ship constructor eventually absorbing it and becoming the first Interstellar shipyard outside Earth."
 	spaceport "The spaceport is very old, as you can see how the city grew around it from the air. The port unlike others was made underground, consisting of a rows of rings where ships park over deep vertical tunnel where lifts move cargo to the surface."
 
 system Denebola
-	add link Baihu
-	add link Ran
 	object
 		sprite star/k5
 		distance 25.236
@@ -470,13 +468,11 @@ system Denebola
 		period 2677.01
 
 system Ran
-	pos -467.06 46.653
+	pos -468.986 132.505
 	government Republic
 	arrival 880
 	habitable 450
-	haze _menu/haze-67
-	link Denebola
-	link "Tau Ceti"
+	link Muphrid
 	trade Clothing 293
 	trade Electronics 735
 	trade Equipment 453
@@ -543,13 +539,14 @@ system Ran
 		period 219.708
 
 system Baihu
-	pos -504.379 95.185
+	pos -472.749 35.704
 	government Republic
 	habitable 700
 	belt 1993 3
 	haze _menu/haze-67
-	link Denebola
 	link Merak
+	link Pollux
+	link "Tau Ceti"
 	asteroids "small rock" 6 3.226
 	asteroids "medium rock" 2 4.493
 	asteroids "large rock" 1 4.666
@@ -568,12 +565,14 @@ system Baihu
 	trade Medical 522
 	trade Metal 459
 	trade Plastic 303
-	fleet "Small Southern Merchants" 500
-	fleet "Small Northern Merchants" 700
-	fleet "Large Southern Merchants" 1800
-	fleet "Large Northern Merchants" 2400
+	fleet "Small Core Merchants" 400
+	fleet "Small Northern Merchants" 500
+	fleet "Large Core Merchants" 1200
+	fleet "Large Northern Merchants" 1800
 	fleet "Small Republic" 1800
 	fleet "Large Republic" 5200
+	fleet "Small Southern Merchants" 300
+	fleet "Large Southern Merchants" 1600
 	object
 		sprite star/g3
 		period 10
@@ -585,17 +584,17 @@ system Baihu
 			sprite planet/ice0
 			distance 122.559
 			period 108.524
-	object
+	object "New Sichuan"
 		sprite planet/ocean8
-		distance 777.02
+		distance 752.207
 		period 704.488
 		object
 			sprite planet/rock17
 			distance 186.605
 			period 369.203
-	object
+	object "New Guangdong"
 		sprite planet/cloud2-b
-		distance 1362.417
+		distance 1338.869
 		period 1368.027
 	object
 		sprite planet/gas6-b
@@ -657,7 +656,6 @@ system Merak
 		period 1501.33
 
 system Eteron
-	add link "Magna Comae"
 	object
 		sprite star/m8
 		period 10
@@ -691,6 +689,7 @@ system Eteron
 		period 3624.98
 
 system Sirius
+	add link "Magna Comae"
 	object
 		sprite star/f5
 		distance 8.696
@@ -733,7 +732,7 @@ planet Solace
 	remove attributes south
 
 system Ashadha
-	pos -398.857 449.963
+	pos -398.413 450.407
 	government Republic
 	arrival 1800
 	habitable 3000
@@ -994,8 +993,8 @@ system Rastaban
 planet Swarajah
 	attributes "dirt belt" factory farming urban
 	landscape land/fields13
-	description "Swarajah was one of the first colonies created by the Hindu peoples of Earth, becoming one of the more hevly populated planets in the south, rivalling Solace, however because of lack of infrastructure they were slower in industrializing so much of the surface is still filled with farms that feed into the densly packed cities."
-	spaceport "The spaceport is rather simplistic for such a populated planet, a simple concrete platform where large freighters come and go, further north you can spot the city it serves."
+	description "Swarajah was one of the first colonies created by the Hindu peoples of Earth, becoming one of the more heavily populated planets in the south, rivaling Solace, however because of lack of infrastructure not much is industrialized so the surface is still filled with farms that feed into the densely packed cities."
+	spaceport "The spaceport is rather simplistic for such a large population, a simple concrete platform where large freighters come and go, further north you can spot the city it probably serves. Exploring the port you find an area where many merchants come to set up shop, thousands of people come to this market to buy and sell goods."
 
 planet Asrayapur
 	attributes "dirt belt" farming frontier textiles
@@ -1067,9 +1066,9 @@ system Moksha
 planet Margad
 	attributes farming frontier religious south
 	landscape land/mountain2
-	description "The second planet inabited by the Hindu people, Margad was settled as a spiritual home for Hinduism, as years passed the small settlement became a colony with millions of residents settling here. Recently it became a tourist spot and the many temples constructed recieve thousands of visitors every year however there are still many more communities who are truly secluded from the rest of the world."
+	description "The second planet inhabited by the Hindu people, Margad was settled as a spiritual home for Hinduism, as years passed the small settlement became a colony with millions of residents settling here. Recently it became a tourist spot and the many temples constructed receive thousands of visitors every year however there are still many more communities who are truly secluded from the rest of the world."
 	spaceport "The spaceport is on quite the distance from the capital, you can see a few buildings on the horizon but not much more. The port itself is a circular path with smaller circles acting as platforms to the starships, from the air it looks like a symbol but you cant recognize it."
-	spaceport "    At the center of the circle theres a terminal where people meet before its next destination. Many vehicles station outside come and go taking and droping people before going to the city. In terrace is a beautiful large garden where people can watch the ships take off.  "
+	spaceport "    At the center of the circle there's a terminal where people meet before its next destination. Many vehicles station outside come and go taking and droping people before going to the city. In terrace is a beautiful large garden where people can watch the ships take off.  "
 	government Republic
 	security 0
 
@@ -1114,4 +1113,29 @@ system Rasalhague
 system Porrima
 
 system Muphrid
+	add link Ran
+
+planet "New Sichuan"
+	attributes "near earth" tourism urban
+	landscape land/city33
+	description "New Sichuan was one of the first Earthlike worlds discovered by Humans, a steep mountain world, livestock was discarded in favor of farming rice in gardens sculpted from the rock of the mountains. as the centuries passed the cities grew and farms became more automated. The day interstellar commerce broke down, food became more scarc and the population suffered famines resulting in overproduction ravaging the planet, an exodus ocurred and the cities became desolated. "
+	description "When trade resumed again population normalized, however measures to make sure the tragedy never repeated led to the construction of large towers that house aquoponic farms for meat and other vegetables, today those towers became simbolic of the Human ability to adapt to the challenges and recieve many visitors."
+	spaceport "New Sichuan Starport is unique among ports as its carved on the face of a mountain. The massive complex is made out of holes in the stone wall, extending deep underground for thousands of ships."
+	spaceport "The hub is on the side facing one of the few valleys in this mountain range where the capital resides. Balconies with thousands of people admire the view, take photos, etc."
+	outfitter "Ammo South"
+	outfitter "Common Outfits"
+	outfitter "Syndicate Basics"
+	security 0.1
+	tribute 1400
+		fleet "Small Republic" 50
+
+planet "New Guangdong"
+	attributes factory "near earth" urban
+	landscape land/city31
+	description "New Guangdong is an ocean world almost devoid of landmasses. The first settlers that came here started in small fishing villages and outpost on the few islands that went above the surface. As industrialization took hold, the villages expanded into floating cities large enough to dwarf any metropolis on earth allowing it to diversify its economy. Thanks to the discovery of massive silicon deposits, a local electronics industry was established and the cities exploded in population."
+	description "Today almost all electronics utilized in Human space use components fabricated here making this a hub for merchants from all corners of space."
+	spaceport "The spaceport can be described in one word: "Massive", the main platform is at least 7 Kilometers in diameter and surrounding it are smaller platforms capable of taking multiple bulk freighters at the same time. You can see the cargo being unloaded from the spaceships and moved by automatic loaders to titanic ships that depart to factories all across the ocean."
+
+system Pollux
+	add link Baihu
 
