@@ -99,7 +99,7 @@ system Procyon
 		period 3332.01
 
 system "Magna Comae"
-	pos -348.407 66.592
+	pos -347.518 65.111
 	government Republic
 	arrival 1070
 	habitable 625
@@ -181,7 +181,6 @@ system "Magna Comae"
 
 system Caph
 	add link "Magna Comae"
-	add link Teegarden
 	object
 		sprite star/g3
 		period 10
@@ -216,12 +215,11 @@ system Caph
 		period 1816.57
 
 system Barnardi
+	hidden
 	pos -419.444 215.371
 	government Republic
 	arrival 700
 	habitable 35
-	link Rasalhague
-	link Vega
 	trade Clothing 316
 	trade Electronics 784
 	trade Equipment 627
@@ -262,7 +260,6 @@ system Barnardi
 			period 129.282
 
 system Vega
-	add link Barnardi
 	object
 		sprite star/g0
 		distance 24.597
@@ -294,14 +291,13 @@ system Vega
 		period 1710.41
 
 system Teegarden
-	pos -296.593 103
+	hidden
+	pos -297.037 103.444
 	government Syndicate
 	arrival 600
 	habitable 320
 	belt 1662 3
 	belt 2482 7
-	link Caph
-	link Fomalhaut
 	asteroids "small rock" 25 4.68
 	asteroids "medium rock" 18 3.229
 	asteroids "large rock" 21 2.948
@@ -358,7 +354,6 @@ system Teegarden
 		period 3191.441
 
 system Fomalhaut
-	add link Teegarden
 	object
 		sprite star/k3
 		period 10
@@ -468,11 +463,11 @@ system Denebola
 		period 2677.01
 
 system Ran
+	hidden
 	pos -468.986 132.505
 	government Republic
 	arrival 880
 	habitable 450
-	link Muphrid
 	trade Clothing 293
 	trade Electronics 735
 	trade Equipment 453
@@ -1108,12 +1103,10 @@ system Sadr
 		period 881.202
 
 system Rasalhague
-	add link Barnardi
 
 system Porrima
 
 system Muphrid
-	add link Ran
 
 planet "New Sichuan"
 	attributes "near earth" tourism urban
@@ -1134,7 +1127,7 @@ planet "New Guangdong"
 	landscape land/city31
 	description "New Guangdong is an ocean world almost devoid of landmasses. The first settlers that came here started in small fishing villages and outpost on the few islands that went above the surface. As industrialization took hold, the villages expanded into floating cities large enough to dwarf any metropolis on earth allowing it to diversify its economy. Thanks to the discovery of massive silicon deposits, a local electronics industry was established and the cities exploded in population."
 	description "Today almost all electronics utilized in Human space use components fabricated here making this a hub for merchants from all corners of space."
-	spaceport "The spaceport can be described in one word: "Massive", the main platform is at least 7 Kilometers in diameter and surrounding it are smaller platforms capable of taking multiple bulk freighters at the same time. You can see the cargo being unloaded from the spaceships and moved by automatic loaders to titanic ships that depart to factories all across the ocean."
+	spaceport "The spaceport can be described in one word: "
 
 system Pollux
 	add link Baihu
