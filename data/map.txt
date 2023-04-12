@@ -1,0 +1,148 @@
+system Atlas
+	pos -244.014 346.167
+	government Syndicate
+	habitable 5285.946
+	link Persian
+	object
+		sprite star/f5
+		distance 128.391
+		period 47.274
+		offset 180
+	object
+		sprite star/b8
+			scale 1.5
+		distance 38.785
+		period 47.274
+	object
+		sprite star/k3
+		distance 269.871
+		period 24.391
+	object
+		sprite planet/rock11
+		distance 647.916
+		period 90.735
+	object
+		sprite planet/titan
+		distance 1115.623
+		period 205.01
+	object
+		sprite planet/browndwarf-t
+		distance 2234.311
+		period 581.051
+		object
+			sprite planet/io-b
+			distance 292
+			period 188.614
+		object
+			sprite planet/miranda
+			distance 409
+			period 391.288
+	object
+		sprite planet/gas15-b
+		distance 4995
+		period 1942.235
+		object
+			sprite planet/rock0-b
+			distance 234
+			period 135.308
+		object
+			sprite planet/rhea-b
+			distance 372
+			period 223.148
+	object
+		sprite planet/gas2-b
+		distance 6715
+		period 3027.385
+		object
+			sprite planet/desert4-b
+			distance 307
+			period 254.46
+		object
+			sprite planet/rock14
+			distance 475
+			period 270.931
+		object
+			sprite planet/dust4
+			distance 611
+			period 469.721
+
+system Persian
+	add link Atlas
+
+system Scheddi
+	pos -230.903 390.907
+	government Republic
+	habitable 7912.806
+	link Dabih
+	link "Kaus Australis"
+	link Tarazed
+	object
+		sprite star/k3
+		distance 163.354
+		period 58.584
+		offset 180
+	object
+		sprite star/a-giant
+			scale 1.4
+		distance 67.271
+		period 58.584
+	object
+		sprite planet/gas16
+		distance 837.525
+		period 54.587
+	object
+		sprite planet/ocean7
+		distance 1385.422
+		period 152.542
+	object
+		sprite planet/miranda
+		distance 1862.257
+		period 267.549
+	object
+		sprite planet/gas10-b
+		distance 3185.705
+		period 532.673
+		object
+			sprite planet/rock17-b
+			distance 232
+			period 217.634
+		object
+			sprite planet/rock14-b
+			distance 370
+			period 186.26
+	object
+		sprite planet/gas9
+		distance 5366
+		period 1767.546
+		object
+			sprite planet/dust1
+			distance 255
+			period 126.645
+		object
+			sprite planet/oberon-b
+			distance 374
+			period 445.453
+	object
+		sprite planet/uranus-b
+		distance 11311
+		period 5409.364
+		object
+			sprite planet/dust3-b
+			distance 254
+			period 153.021
+		object
+			sprite planet/io
+			distance 376
+			period 275.602
+
+system Dabih
+	add link Scheddi
+
+system "Kaus Australis"
+	add link Scheddi
+
+system Tarazed
+	add link Scheddi
+
+system Peacock
+
