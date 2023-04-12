@@ -421,12 +421,6 @@ system Altair
 		distance 2223.95
 		period 1329.95
 
-planet Mikhailnov
-	landscape land/city26
-	description "Mikhailnov is the second planet colonized by humanity before the Hyperdrive was invented. As the nations of earth battle for supremacy the Russian Empire wanted a colony to their name so the Ruler Gregory Mikhail funded with its own money the expedition to Magna Comae unfortunately Mikhail wouldnt survive the journey, and when settlers arrived they gave the planet his name to honor its deeds. "
-	description "Over the years Mikhailnov became an industrial world large enough that they started to build their own ships outside Earth, and so Yatsunov Shipyards was formed as a subsidiary of the Colony ship constructor eventually absorbing it and becoming the first Interstellar shipyard outside Earth."
-	spaceport "The spaceport is very old, as you can see how the city grew around it from the air. The port unlike others was made underground, consisting of a rows of rings where ships park over deep vertical tunnel where lifts move cargo to the surface."
-
 system Denebola
 	object
 		sprite star/k5
@@ -715,16 +709,11 @@ system Sirius
 		distance 2162.3
 		period 935.078
 
-planet Prodos
-	attributes border station
-	landscape land/station10
-	description "Prodos station was one of the three stations built during the Caravan Era and was a symbol of progress for this region of space, the pirate assault of 2873 left the Station partially damaged and many of its residents escaping to Solace."
-	bribe 0.05
-	security 0.6
-
 planet Solace
 	add attributes border
 	remove attributes south
+	shipyard "Basic Ships"
+	shipyard "Southbound Basics"
 
 system Ashadha
 	pos -398.413 450.407
@@ -985,25 +974,6 @@ system Rastaban
 		distance 3881.4
 		period 2943.27
 
-planet Swarajah
-	attributes "dirt belt" factory farming urban
-	landscape land/fields13
-	description "Swarajah was one of the first colonies created by the Hindu peoples of Earth, becoming one of the more heavily populated planets in the south, rivaling Solace, however because of lack of infrastructure not much is industrialized so the surface is still filled with farms that feed into the densely packed cities."
-	spaceport "The spaceport is rather simplistic for such a large population, a simple concrete platform where large freighters come and go, further north you can spot the city it probably serves. Exploring the port you find an area where many merchants come to set up shop, thousands of people come to this market to buy and sell goods."
-
-planet Asrayapur
-	attributes "dirt belt" farming frontier textiles
-	landscape land/forest0
-	description "Asrayapur was first settled less than a century ago, and the settlers are still struggling to establish themselves. The last planet settled by the Hindu people, its an hospitable climate, but the amount of labor needed to clear forests and to plow rocky fields has meant that the towns here can only grow very slowly."
-	description "The farms grow both food crops and cotton, and very recently they have begun manufacturing their own textiles instead of just shipping the raw cotton off-world for processing."
-	spaceport "Asrayapur's spaceport is a ring of low wooden buildings around a wide landing area paved with concrete slabs. Around the perimeter carts of trade goods are driven, some being pulled by tractors and others, by horses or oxen. You even think you see a few carts being pulled by water buffalo."
-	spaceport "Most of the buildings are for storage, but from somewhere nearby you can smell fresh-baked bread."
-	outfitter "Ammo South"
-	security 0.05
-	tribute 200
-		threshold 2000
-		fleet "Small Militia" 16
-
 system Moksha
 	pos -331.551 520.144
 	government Republic
@@ -1058,15 +1028,6 @@ system Moksha
 		distance 2591
 		period 2385.203
 
-planet Margad
-	attributes farming frontier religious south
-	landscape land/mountain2
-	description "The second planet inhabited by the Hindu people, Margad was settled as a spiritual home for Hinduism, as years passed the small settlement became a colony with millions of residents settling here. Recently it became a tourist spot and the many temples constructed receive thousands of visitors every year however there are still many more communities who are truly secluded from the rest of the world."
-	spaceport "The spaceport is on quite the distance from the capital, you can see a few buildings on the horizon but not much more. The port itself is a circular path with smaller circles acting as platforms to the starships, from the air it looks like a symbol but you cant recognize it."
-	spaceport "    At the center of the circle there's a terminal where people meet before its next destination. Many vehicles station outside come and go taking and droping people before going to the city. In terrace is a beautiful large garden where people can watch the ships take off.  "
-	government Republic
-	security 0
-
 system Sadr
 	object
 		sprite star/a5
@@ -1101,33 +1062,6 @@ system Sadr
 		sprite planet/miranda
 		distance 2553.34
 		period 881.202
-
-system Rasalhague
-
-system Porrima
-
-system Muphrid
-
-planet "New Sichuan"
-	attributes "near earth" tourism urban
-	landscape land/city33
-	description "New Sichuan was one of the first Earthlike worlds discovered by Humans, a steep mountain world, livestock was discarded in favor of farming rice in gardens sculpted from the rock of the mountains. as the centuries passed the cities grew and farms became more automated. The day interstellar commerce broke down, food became more scarc and the population suffered famines resulting in overproduction ravaging the planet, an exodus ocurred and the cities became desolated. "
-	description "When trade resumed again population normalized, however measures to make sure the tragedy never repeated led to the construction of large towers that house aquoponic farms for meat and other vegetables, today those towers became simbolic of the Human ability to adapt to the challenges and recieve many visitors."
-	spaceport "New Sichuan Starport is unique among ports as its carved on the face of a mountain. The massive complex is made out of holes in the stone wall, extending deep underground for thousands of ships."
-	spaceport "The hub is on the side facing one of the few valleys in this mountain range where the capital resides. Balconies with thousands of people admire the view, take photos, etc."
-	outfitter "Ammo South"
-	outfitter "Common Outfits"
-	outfitter "Syndicate Basics"
-	security 0.1
-	tribute 1400
-		fleet "Small Republic" 50
-
-planet "New Guangdong"
-	attributes factory "near earth" urban
-	landscape land/city31
-	description "New Guangdong is an ocean world almost devoid of landmasses. The first settlers that came here started in small fishing villages and outpost on the few islands that went above the surface. As industrialization took hold, the villages expanded into floating cities large enough to dwarf any metropolis on earth allowing it to diversify its economy. Thanks to the discovery of massive silicon deposits, a local electronics industry was established and the cities exploded in population."
-	description "Today almost all electronics utilized in Human space use components fabricated here making this a hub for merchants from all corners of space."
-	spaceport "The spaceport can be described in one word: "
 
 system Pollux
 	add link Baihu

@@ -10,6 +10,7 @@ planet Phenyria
 	shipyard "Southbound Advanced"
 	shipyard "Southbound Basics"
 	outfitter "Ammo South"
+	outfitter "Basic Outfits"
 	outfitter "Common Outfits"
 	outfitter "Delta V Advanced"
 	outfitter "Kraz Basics"
@@ -72,8 +73,12 @@ planet Misoes
 planet Columbia
 	attributes border factory tourism urban
 	landscape land/city24
-	description "New columbia was the second of the planets colonized in this system, established as a "
+	description "Columbia was the second of the planets colonized in this system, established as a manufacturing planet."
 	spaceport TBD
+	shipyard "Basic Ships"
+	shipyard "Paradeigm Basics"
+	shipyard "Southbound Advanced"
+	shipyard "Southbound Basics"
 	outfitter "Ammo South"
 	outfitter "Common Outfits"
 	outfitter "Delta V Advanced"
@@ -91,9 +96,11 @@ planet "San Paolo"
 	spaceport "The spaceport is located in a lake near the capital, being constructed recently to accommodate the large influx of tourists and immigrants. the platforms are shaped like a ring and there are dozens of them. The Terminal here is lavish, containing hotels, shopping malls and stores having people occupied until their next destination."
 	spaceport "A bit to the west there's the storehouse where millions of containers are packed, organized and distributed, most of it is automatic with operators only supervising the most critical tasks."
 	outfitter "Ammo South"
+	outfitter "Basic Outfits"
 	outfitter "Common Outfits"
 	outfitter "Delta V Basics"
 	outfitter "Kraz Basics"
+	outfitter "Pirate Outfits"
 	bribe 0.02
 	security 0.2
 	tribute 900
@@ -108,6 +115,13 @@ planet Inova
 	government Uninhabited
 	"required reputation" -1000
 	security 0
+
+planet Prodos
+	attributes border station
+	landscape land/station10
+	description "Prodos station was one of the three stations built during the Caravan Era and was a symbol of progress for this region of space, the pirate assault of 2873 left the Station partially damaged and many of its residents escaping to Solace."
+	bribe 0.05
+	security 0.6
 
 planet Mars
 	add attributes factory
@@ -142,4 +156,88 @@ planet Venus
 	tribute 4000
 		threshold 7000
 		fleet "Large Republic" 14
+
+planet "New Sichuan"
+	attributes "near earth" tourism urban
+	landscape land/city33
+	description "New Sichuan was one of the first Earthlike worlds discovered by Humans, a steep mountain world, livestock was discarded in favor of farming rice in gardens sculpted from the rock of the mountains. as the centuries passed the cities grew and farms became more automated. The day interstellar commerce broke down, food became more scarc and the population suffered famines resulting in overproduction ravaging the planet, an exodus ocurred and the cities became desolated. "
+	description "When trade resumed again population normalized, however measures to make sure the tragedy never repeated led to the construction of large towers that house aquoponic farms for meat and other vegetables, today those towers became simbolic of the Human ability to adapt to the challenges and recieve many visitors."
+	spaceport "New Sichuan Starport is unique among ports as its carved on the face of a mountain. The massive complex is made out of holes in the stone wall, extending deep underground for thousands of ships."
+	spaceport "The hub is on the side facing one of the few valleys in this mountain range where the capital resides. Balconies with thousands of people admire the view, take photos, etc."
+	bribe 0.1
+	security 0.1
+	tribute 1400
+		fleet "Small Republic" 35
+
+planet "New Guangdong"
+	attributes factory "near earth" urban
+	landscape land/city31
+	description "New Guangdong is an ocean world almost devoid of landmasses. The first settlers that came here started in small fishing villages and outpost on the few islands that went above the surface. As industrialization took hold, the villages expanded into floating cities large enough to dwarf any metropolis on earth allowing it to diversify its economy. Thanks to the discovery of massive silicon deposits, a local electronics industry was established and the cities exploded in population."
+	description "Today almost all electronics utilized in Human space use components fabricated here making this a hub for merchants from all corners of space."
+	spaceport "The spaceport can be described in one word: 'Massive', the main platform is at least seven kilometers in diameter and surrounding it are smaller platforms capable of taking multiple bulk freighters at the same time. You can see the cargo being unloaded from the spaceships and moved by automatic loaders to titanic ships that depart to factories all across the ocean."
+	spaceport " The Hub of the port can be considered a city unto itself, you can estimate hundreds of thousands of people transiting the area every hour. From large shopping centers to casinos and hotels one could travel all and still have the rest of the planet to see."
+	outfitter "Ammo South"
+	outfitter "Common Outfits"
+	outfitter "Syndicate Basics"
+	bribe 0.1
+	security 0.5
+	tribute 5600
+		threshold 8500
+		fleet "Large Republic" 20
+
+planet Mikhailnov
+	landscape land/city26
+	description "Mikhailnov was the second planet colonized by humanity before the Hyperdrive was invented. As the nations of earth battle for supremacy the Russian Empire wanted a colony to their name so the Ruler Gregory Mikhail funded with its own money the expedition to Magna Comae unfortunately Mikhail wouldnt survive the journey, and when settlers arrived they gave the planet his name to honor its deeds. "
+	description "Over the years Mikhailnov became an industrial world large enough that they started to build their own ships outside Earth, and so Yatsunov Shipyards was formed as a subsidiary of the Colony ship constructor eventually absorbing it and becoming the first Interstellar shipyard outside Earth."
+	spaceport "The spaceport is very old, as you can see how the city grew around it from the air. The port unlike others was made underground, consisting of a rows of rings where ships park over deep vertical tunnel where lifts move cargo to the surface."
+	shipyard "Basic Ships"
+	shipyard "Betelgeuse Advanced"
+	shipyard "Betelgeuse Basics"
+	outfitter "Ammo North"
+	outfitter "Common Outfits"
+	outfitter "Lovelace Basics"
+	outfitter "Syndicate Basics"
+	bribe 0.02
+	security 0.3
+	tribute 4400
+		threshold 7500
+		fleet "Large Republic" 16
+
+planet Margad
+	attributes farming frontier religious south
+	landscape land/mountain2
+	description "The second planet inhabited by the Hindu people, Margad was settled as a spiritual home for Hinduism, as years passed the small settlement became a colony with millions of residents settling here. Recently it became a tourist spot and the many temples constructed receive thousands of visitors every year however there are still many more communities who are truly secluded from the rest of the world."
+	spaceport "The spaceport is on quite the distance from the capital, you can see a few buildings on the horizon but not much more. The port itself is a circular path with smaller circles acting as platforms to the starships, from the air it looks like a symbol but you cant recognize it."
+	spaceport "    At the center of the circle there's a terminal where people meet before its next destination. Many vehicles station outside come and go taking and droping people before going to the city. In terrace is a beautiful large garden where people can watch the ships take off.  "
+	government Republic
+	security 0
+
+planet Asrayapur
+	attributes "dirt belt" farming frontier textiles
+	landscape land/forest0
+	description "Asrayapur was first settled less than a century ago, and the settlers are still struggling to establish themselves. The last planet settled by the Hindu people, its an hospitable climate, but the amount of labor needed to clear forests and to plow rocky fields has meant that the towns here can only grow very slowly."
+	description "The farms grow both food crops and cotton, and very recently they have begun manufacturing their own textiles instead of just shipping the raw cotton off-world for processing."
+	spaceport "Asrayapur's spaceport is a ring of low wooden buildings around a wide landing area paved with concrete slabs. Around the perimeter carts of trade goods are driven, some being pulled by tractors and others, by horses or oxen. You even think you see a few carts being pulled by water buffalo."
+	spaceport "Most of the buildings are for storage, but from somewhere nearby you can smell fresh-baked bread."
+	outfitter "Ammo South"
+	security 0.05
+	tribute 200
+		threshold 2000
+		fleet "Small Militia" 16
+
+planet Swarajah
+	attributes "dirt belt" factory farming urban
+	landscape land/fields13
+	description "Swarajah was one of the first colonies created by the Hindu peoples of Earth, becoming one of the more heavily populated planets in the south, rivaling Solace, however because of lack of infrastructure not much is industrialized so the surface is still filled with farms that feed into the densely packed cities."
+	spaceport "The spaceport is rather simplistic for such a large population, a simple concrete platform where large freighters come and go, further north you can spot the city it probably serves. Exploring the port you find an area where many merchants come to set up shop, thousands of people come to this market to buy and sell goods."
+	shipyard "Basic Ships"
+	shipyard "Tarazed Basics"
+	outfitter "Ammo South"
+	outfitter "Common Outfits"
+	outfitter "Delta V Basics"
+	outfitter "Kraz Basics"
+	security 0.03
+	tribute 200
+		threshold 2000
+		fleet "Small Militia" 14
 

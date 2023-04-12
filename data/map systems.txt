@@ -491,7 +491,7 @@ system Phanam
 			offset 40.638
 
 system Pherkad
-	habitable 2135
+	habitable 3400
 	add link Bethlem
 	add link Thales
 	object
@@ -500,37 +500,59 @@ system Pherkad
 		period 10
 	object Solace
 		sprite planet/forest5-b
-			scale 0.8
-		distance 2405.885
-		period 70.492
+			scale 1.6
+		distance 3013.005
+		period 1206.519
+		object
+			sprite planet/ice7-b
+			distance 275.079
+			period 44
 	object
 		sprite planet/rock12-b
 		distance 846.283
-		period 487.422
+		period 168.886
 	object
-		sprite planet/rock15-b
-		distance 1650.92
-		period 850.508
+		sprite planet/desert10
+			scale 1.4
+		distance 1459.187
+		period 382.373
 	object
 		sprite planet/gas1-b
-		distance 3826.103
-		period 2088.25
+			scale 1.6
+		distance 5393.53
+		period 2717.253
 		object Prodos
 			sprite planet/station2
 				scale 0.5
-			distance 523.809
+			distance 607.417
 			period 33.3
 		object
 			sprite planet/mercury
-			distance 274
+			distance 392.641
 			period 15.996
 		object
 			sprite planet/lava2-b
-			distance 410
+			distance 829.242
 			period 29.28
 	object
 		sprite planet/gas1
-		distance 5995.431
+			scale 1.4
+		distance 8499.564
+		period 4336.78
+		object
+			sprite planet/fog0
+				scale 0.6
+			distance 898.71
+			period 71
+		object
+			sprite planet/dust6-b
+			distance 635.734
+			period 54
+	object
+		sprite planet/gas4
+			scale 2
+		distance 13504.711
+		period 6497.082
 
 system Thales
 	pos -770.745 426.361

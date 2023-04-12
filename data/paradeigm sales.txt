@@ -13,7 +13,7 @@ shipyard "Paradeigm Basics"
 	"Anvatis"
 #	"Emporos"
 	
-#Depreceated	
+#Deprecated	
 	
 #shipyard "Arhent Defense"
 #	"Magnadraus"
