@@ -26,7 +26,7 @@ ship "Zokef"
 		"cargo space" 45
 		"outfit space" 150
 		"weapon capacity" 28
-		"engine capacity" 82
+		"engine capacity" 72
 		weapon
 			"blast radius" 17
 			"shield damage" 140
@@ -67,8 +67,8 @@ ship "Anvatis"
 	attributes
 		category "Light Warship"
 		"cost" 1902000
-		"shields" 3700
-		"hull" 2300
+		"shields" 2700
+		"hull" 2100
 		"required crew" 2
 		"bunks" 7
 		"mass" 130
@@ -83,7 +83,7 @@ ship "Anvatis"
 			"blast radius" 47
 			"shield damage" 480
 			"hull damage" 240
-			"hit force" 620
+			"hit force" 580
 	outfits
 		"Heavy Laser" 2
 		"Heavy Anti-Missile Turret"
