@@ -1,19 +1,18 @@
 #Prometheus Flame Dev Roadmap
 
 #0.0.1
-#New System Alzemait -(Complete)
-#	-Phenyria
-#	-Ilyria
-#	-Daedalus Station
+#New Region the Borderworlds -(Incomplete, lacks descriptions in some planets)
 	
 #New Ships
-#	-Zokef (General utility starcraft) - (Ship Sprite complete - Stats complete - Thumbnail in progress.)
-#	-Anvatis (Turret-focused interceptor) - (Model in the Works.)
-#	-Emporos (Cargo/Miner hybrid ship) - (Planning phase.)
-#		-Asteledfis (Asteroid miner drone)
+#	-Zokef (General utility starcraft) - (Ship Sprite complete - Stats complete - Thumbnail complete)
+#	-Anvatis (Turret-focused interceptor) - (Ship Sprite complete - Stats complete - Thumbnail complete)
 
 #0.0.2
 #Integration of the ships into ES (adding them into fleets)
+
+#New Ships
+#	-Emporos (Cargo/Miner hybrid ship) - (Planning phase.)
+#		-Asteledfis (Asteroid miner drone)
 
 #Small Missions
 #	-Shipment Missions
@@ -34,7 +33,7 @@
 #	-Monitor (Free Worlds Gunboat/Rainmaker hybrid)
 #	-Syron (Armored 150 tons cargo starship)
 #	-Daring (Free Worlds Frigate/Destroyer starship)
-#		-Proskopi (Free Worlds Survelliance Drone)
+#		-Teal (Tarazed Free Worlds Survelliance Drone)
 
 #Storyline
 #	-FW (Paradeigm and the Free Worlds)
@@ -43,11 +42,11 @@
 #		-Joining for the Company (Salary included)
 
 #0.2.1
-#New Outfits. (courtesy of Ikaros Engineering)
+#New Outfits.
 
-#Pulse Cannons (Small shield depleter weapon for future small starcraft)
+#Meiron Pulse Cannons (Small hull shredder for future small starcraft, turret version included)
 #Aeraki Family of Human Active Coolers
-#Meiron Generators (similar to the Hai reactors but slightly lesser in performance though cheaper in price.)
+#Meiron Generators (similar to the Hai reactors but slightly lesser in performance though cheaper in price and small in size.)
 
 #Integration of the New outfits in the game
 
