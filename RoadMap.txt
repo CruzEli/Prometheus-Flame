@@ -28,6 +28,16 @@
 #0.1.0
 #Complete the three ships, finish intro missions
 
+#new Outfits
+#
+#Weapons
+#	Meson Pulse Cannons (middle ground between the Energy blasters and photon and particle weapons, very good hull shredders, should be at the same level of the Heavy lasers)
+#	M3 Kisat Bay/Pod (created to complement the Pulse Cannons, the Kisat, short for kinetic saturation, is a kinetic rod launcher with some degree of homing, but its main purpose is being an anti capital shield depleter.)
+#	
+#	Tarazed Longbow series of anti-missile turrets (inspired by Zoura HSO) 
+#		Marksman: Light anti-missile.
+#		Sharpshooter: Heavy anti-missile
+
 #0.2.0
 #New Ships
 #	-Monitor (Free Worlds Gunboat/Rainmaker hybrid)
@@ -44,7 +54,7 @@
 #0.2.1
 #New Outfits.
 
-#Meiron Pulse Cannons (Small hull shredder for future small starcraft, turret version included)
+#Meson Heavy Pulse (Heavier variant of the Meson Pulse Cannon)
 #Aeraki Family of Human Active Coolers
 #Meiron Generators (similar to the Hai reactors but slightly lesser in performance though cheaper in price and small in size.)
 
@@ -52,7 +62,17 @@
 
 #0.3.0
 #New Ships
-#	-Syfka (Multirole Logistics/Carrier, Free Worlds equivalent of the Navy Auxiliary)
+#	-Eyrie (Multirole Logistics/Carrier, Free Worlds equivalent of the Navy Auxiliary)
 #		-Southbound Dropship
-#		-Tarazed Buzzard Fighter (Derived from the Hawk)
+#		-Tarazed Eidar Fighter (Derived from the Hawk)
 #		-Paradigm Kounupi (Combat Drone)
+
+#0.4.0
+#New Shipyard
+#	Yatsunov (the oldest ship manufacturer in human space.)
+#	Spinal weapon, turret mounted.
+#
+#		Light warship (know as one of the first warships ever used in combat still in service, now converted to an merchant escort)
+#		Utility/Miner ship
+#		Medium warship (The largest warships of their time, as old as the Firebird.)
+#		Heavy warship/carrier hybrid (4 fighters.)
