@@ -1,6 +1,6 @@
 planet Phenyria
 	attributes border factory research
-	landscape land/city25
+	landscape land/ncity2
 	description "Phenyria is an earth-like world orbiting Alniyat, however the planet is in the far edge of its habitable zone making its climate very Earth-Like although much colder even on the equator, despite this Phenyria is home for one-point-five hundred million people from all regions of space and thanks to its vast resources, its a major industrial and scientific hub in the South. "
 	description "The largest industries in the planet include Paradeigm Group who employ a tenth of the worlds population, and Ikaros Engineering who's headquarters reside on Ilmyria and develop all kinds of outfits."
 	spaceport "The spaceport is located inside the main city near the government house, and is divided into two sections called rings. The innermost ring is the oldest, built when the planet was first discovered it was the end point to various caravans however it isn't capable of handling most modern freighters of today and its used for smaller star ships, the oldest facilities were closed off are being currently converted into a museum. The outermost ring, built 100 years ago, is one of the largest spaceports in the South, handling everything from food convoys to shipbuilding parts."
@@ -22,9 +22,13 @@ planet Phenyria
 
 planet Ilmyria
 	attributes border moon research tourism
-	landscape land/snow_village
+	landscape land/frostyvillage
 	description "Ilmyria is the first moon of Phenyria and the only one that is habitable for humans. In the early days of the South, Ilmyria was used as a stopgap for repairing ships in long hauls. As things quiet down the moon settlement found new life as a tourist destination and education home especially for the increasing middle class of the Dirt Belt and beyond. As such more than half of its residents are off-world students. Today the moon is home to various ski resorts, mountain climbing and winter homes courtesy of the government who provides substantial benefits to workers as well as large universities which attract many to learn."
-	spaceport "Although not outdated in any sense, the spaceport has a distinctive vintage style from the early days of exploration. The main terminal is littered with advertisements for many resorts and schools in the zone and many buses come and go from the terminal. The port is located some kilometers of the main settlement which resembles the alpine villages that you would see on some movies. Just outside the the village there is a large education campus where many students qualify for the many industries in the system."
+	spaceport "Although not outdated in any sense, the spaceport has a distinctive vintage style from the early days of exploration. The main terminal is littered with advertisements for many resorts and schools in the zone and many buses come and go from the terminal. The port is located some kilometers of the main settlement which resembles the alpine villages that you would see on some movies. Just outside the the village there is a large education campus where many students qualify for the many industries in this system."
+	outfitter "Ammo South"
+	outfitter "Delta V Advanced"
+	outfitter "Kraz Advanced"
+	outfitter "Ikaros Testing"
 	tribute 200
 		threshold 1500
 		fleet "Small Militia" 15
@@ -65,14 +69,14 @@ planet Austral
 
 planet Misoes
 	attributes border farming frontier religious
-	landscape land/valley8
+	landscape land/ncity13
 	description TBD
 	spaceport TBD
 	security 0
 
 planet Columbia
 	attributes border factory tourism urban
-	landscape land/city24
+	landscape land/ncity1
 	description "Columbia was the second of the planets colonized in this system, established as a manufacturing planet."
 	spaceport TBD
 	shipyard "Basic Ships"
@@ -90,7 +94,7 @@ planet Columbia
 
 planet "San Paolo"
 	attributes border factory farming tourism
-	landscape land/city29
+	landscape land/ncity6
 	description "San Paolo is a tropical world, dominated by vast jungles that stretch across continents, in the plains and valleys where the trees don't dominate the landscape exist many settlements and farms that reach millions of kilometers, all to feed the ever increasing population of the urban centers, where the skyline is dominated by skyscrapers who house millions working in some variation of goods and services or manufacturing. San Paolo is also home to Taurus-Ikaros Defense Group, one of the largest weapon manufacturers in the south."
 	description "As the first planet to be settled in this region, its customs and culture differ somewhat from the other planets in the Borderworlds but its still recognizable. Many people from all corners of space come here for the pristine beaches here during the summer. "
 	spaceport "The spaceport is located in a lake near the capital, being constructed recently to accommodate the large influx of tourists and immigrants. the platforms are shaped like a ring and there are dozens of them. The Terminal here is lavish, containing hotels, shopping malls and stores having people occupied until their next destination."
@@ -110,15 +114,15 @@ planet "San Paolo"
 planet Inova
 	attributes uninhabited
 	landscape land/beach1
-	description TBD
-	spaceport TBD
+	description "TBD"
+	spaceport "Spaceport TBD"
 	government Uninhabited
 	"required reputation" -1000
 	security 0
 
 planet Prodos
 	attributes border station
-	landscape land/station10
+	landscape land/station11
 	description "Prodos station was one of the three stations built during the Caravan Era and was a symbol of progress for this region of space, the pirate assault of 2873 left the Station partially damaged and many of its residents escaping to Solace."
 	bribe 0.05
 	security 0.6
@@ -159,7 +163,7 @@ planet Venus
 
 planet "New Sichuan"
 	attributes "near earth" tourism urban
-	landscape land/city33
+	landscape land/ncity10
 	description "New Sichuan was one of the first Earthlike worlds discovered by Humans, a steep mountain world, livestock was discarded in favor of farming rice in gardens sculpted from the rock of the mountains. as the centuries passed the cities grew and farms became more automated. The day interstellar commerce broke down, food became more scarc and the population suffered famines resulting in overproduction ravaging the planet, an exodus ocurred and the cities became desolated. "
 	description "When trade resumed again population normalized, however measures to make sure the tragedy never repeated led to the construction of large towers that house aquoponic farms for meat and other vegetables, today those towers became simbolic of the Human ability to adapt to the challenges and recieve many visitors."
 	spaceport "New Sichuan Starport is unique among ports as its carved on the face of a mountain. The massive complex is made out of holes in the stone wall, extending deep underground for thousands of ships."
