@@ -26,6 +26,10 @@ planet Ilmyria
 	description "Ilmyria is the first moon of Phenyria and the only one that humans can inhabit. When the South was initially settled, Ilmyria was used as a stopover for repairing ships in long hauls; throughout the ages the colony found new life as a tourist destination and education center, especially for the developing middle class of the Dirt Belt and beyond. As such, more than half of its residents are off-world students. Today the moon is home to various ski resorts, mountain climbing and winter homes, courtesy of the local government who provides substantial benefits to workers as well as large universities which attract many to learn."
 	description "	In addition to the overarching education industry, Ilmyria also houses the headquarters of Ikaros Engineering."
 	spaceport "Although not outdated in any sense, the spaceport has a distinctive vintage style from the early days of exploration. The main terminal is littered with advertisements for many resorts and schools in the zone and many buses come and go from the terminal. The port is located some kilometers of the main settlement, which resembles the alpine villages that you would see in antique movies. Just outside the the village there is a large campus, where students gain their qualifications for the many industries in the system."
+	outfitter "Ammo South"
+	outfitter "Delta V Advanced"
+	outfitter "Kraz Advanced"
+	outfitter "Ikaros Testing"
 	tribute 200
 		threshold 1500
 		fleet "Small Militia" 15
@@ -66,14 +70,14 @@ planet Austral
 
 planet Misoes
 	attributes periphery farming frontier religious
-	landscape land/valley8
+	landscape land/ncity13
 	description TBD
 	spaceport TBD
 	security 0
 
 planet Columbia
 	attributes periphery factory tourism urban
-	landscape land/city24
+	landscape land/ncity1
 	description "Columbia was the second of the planets colonized in this system, established as a manufacturing planet."
 	spaceport TBD
 	shipyard "Basic Ships"
@@ -91,9 +95,9 @@ planet Columbia
 
 planet "San Paolo"
 	attributes periphery factory farming tourism
-	landscape land/city29
+	landscape land/ncity6
 	description "San Paolo is a tropical world, dominated by vast jungles that stretch across continents, in the plains and valleys where the trees don't dominate the landscape exist many settlements and farms that reach millions of kilometers, all to feed the ever increasing population of the urban centers, where the skyline is dominated by skyscrapers who house millions working in some variation of goods and services or manufacturing. San Paolo is also home to Taurus-Ikaros Defense Group, one of the largest weapon manufacturers in the South."
-	description "	As the first planet to be settled in this region, its customs and culture differ somewhat from the other planets in the Borderworlds but its still recognizable. Many people from all corners of space come here for the pristine beaches here during the summer. "
+	description "	As the first planet to be settled in this region, its customs and culture differ somewhat from the other planets in the Periphery but its still recognizable. Many people from all corners of space come here for the pristine beaches here during the summer."
 	spaceport "The spaceport is located in a lake near the capital, being constructed recently to accommodate the large influx of tourists and immigrants. the platforms are shaped like a ring and there are dozens of them. The Terminal here is lavish, containing hotels, shopping malls and stores having people occupied until their next destination."
 	spaceport "	Some way to the west there's the storehouse where millions of containers are packed, organized and distributed, most of it is automatic with operators only supervising the most critical tasks."
 	outfitter "Ammo South"
@@ -111,15 +115,15 @@ planet "San Paolo"
 planet Inova
 	attributes uninhabited
 	landscape land/beach1
-	description TBD
-	spaceport TBD
+	description "TBD"
+	spaceport "Spaceport TBD"
 	government Uninhabited
 	"required reputation" -1000
 	security 0
 
 planet Prodos
 	attributes periphery station
-	landscape land/station10
+	landscape land/station11
 	description "Prodos Station was one of the three stations built during the Caravan Era, a symbol of progress for this region of space. The pirate assault of 2873 left the station partially damaged, and many of its residents were evacuated to Solace."
 	bribe 0.05
 	security 0.6
@@ -160,7 +164,7 @@ planet Venus
 
 planet "New Sichuan"
 	attributes "near earth" tourism urban farming
-	landscape land/city33
+	landscape land/ncity10
 	description "New Sichuan was one of the first Earth-like worlds settled by humans. A steep mountain world, the initial colonists initially introduced livestock, but came to favor farming rice in the terraces sculpted from the rock of the mountains. As the centuries passed the cities grew to become some of the largest in human space and the farms became more automated, creating an unique system of farming complexes and distribution centers that efficiently provided for the burgeoning planet, as well as other planets in nearby systems."
 	description "	During the Alpha Wars, New Sichuan was briefly occupied by the Alphas. In their retreat from Human forces, they systematically destroyed the farming complexes and the distribution centers, leading to widespread famine across New Sichuan. Many cities were deserted for the safety of better protected planets like Earth or Haze."
 	description "	When the Alpha Wars subsided and the population of the planet was largely restored during the Caravan Era, measures to taken to ensure the tragedy was never lest the Alphas rose again. Each city holds large towers housing aquoponic farms for meat and other vegetables, in order to supplement the fertile rice fields that New Sichuan still holds and exploits; today these towers are symbols of the human ability to adapt in the face of mounting challenges, and recieve many off-world visitors."
