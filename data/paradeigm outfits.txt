@@ -78,7 +78,7 @@ outfit "Meson Phaser Beam"
 		"hull damage" 20.2
 		"ion damage" 1.2
 		"scrambling damage" 1.2
-	description "Developed as a replacement for the energy blasters, Meson Phasers were built over the years to be as efficiently as possible. They work by accelerating a packet of protons and electrons trough metal sheets creating an pulsed beam of subatomic particles (new named Phaser Beam) launched at near light speeds. While not very good against any kind of shielding alone, their ability to disrupt them coupled with their small size makes them a lethal weapon in sufficient numbers."
+	description "Developed as a replacement for the energy blasters, Meson Phasers were built over the years to be as efficiently as possible. They work by accelerating a packet of protons and electrons trough metal sheets creating an pulsed beam of subatomic particles (called a Pulsed 'Laser' Beam) launched at near light speeds. While not very good against any kind of shielding alone, their ability to disrupt them coupled with their small size makes them a lethal weapon in sufficient numbers."
 	
 # Turret versions
 
