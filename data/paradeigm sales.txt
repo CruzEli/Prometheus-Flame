@@ -13,6 +13,14 @@ shipyard "Paradeigm Basics"
 	"Anvatis"
 #	"Emporos"
 	
+outfitter "Ikaros Testing"
+	"Meson Phaser Beam"
+	"Meson Phaser Turret"
+	"Heavy Meson Phaser"
+	"Marksman Anti-Missile"
+	"Sharpshooter Anti-Missile"
+	"Aeraki Cryocooler System"
+	
 #Deprecated	
 	
 #shipyard "Arhent Defense"
