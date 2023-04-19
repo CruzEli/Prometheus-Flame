@@ -1,9 +1,9 @@
 planet Phenyria
 	attributes periphery factory research
 	landscape land/ncity2
-	description "Phenyria is on the far edge of Alniyat's habitable zone making its climate very Earth-like, although much colder even at the equator. Despite this, Phenyria is home to just over a hundred and fifty million people from all regions of space, and thanks to its vast resources, it is a major industrial and scientific hub in the South."
+	description "Phenyria is on the far edge of Alniyat's habitable zone. Although that means its climate is very Earth-like, it is much colder even at the equator. Despite this, Phenyria is home to just over a hundred and ninety million people from all regions of space, and thanks to its vast resources, it is a major industrial and scientific hub in the South."
 	description "	The largest industries on the planet include Paradeigm Group, who employ a tenth of the world's population, and Ikaros Engineering, who develop and manufacture all kinds of outfits."
-	spaceport "The spaceport is located inside the main city near the government house, and is divided into two 'rings.' The innermost ring is the oldest, built when the planet was first discovered. Although it was once quite busy, now it isn't capable of servicing most modern freighters and only processes smaller starships; the oldest facilities are closed off and is in the process of being converted into a museum. The outermost ring, built a hundred years ago, is one of the largest spaceports in the South, handling everything from massive food-laden bulk freighters to shipbuilding and engineering convoys."
+	spaceport "The spaceport is located inside the main city near the government house, and is divided into two 'rings.' The innermost ring is the oldest, built when the planet was first discovered. Although it was once well trafficked, now it isn't capable of servicing most modern freighters and only processes smaller starships; the oldest facilities are closed off and is in the process of being converted into a museum. The outermost ring, built a hundred years ago, is one of the largest spaceports in the South, handling everything from massive food-laden bulk freighters to shipbuilding and engineering convoys."
 	spaceport "	Just outside the planetary spaceport, there is a private port owned by Paradeigm. Occasionally it's possible to see bright flashes inside one of the hangars."
 	shipyard "Basic Ships"
 	shipyard "Paradeigm Basics"
@@ -22,7 +22,7 @@ planet Phenyria
 
 planet Ilmyria
 	attributes periphery moon research tourism
-	landscape land/snow_village
+	landscape land/frostyvillage
 	description "Ilmyria is the first moon of Phenyria and the only one that humans can inhabit. When the South was initially settled, Ilmyria was used as a stopover for repairing ships in long hauls; throughout the ages the colony found new life as a tourist destination and education center, especially for the developing middle class of the Dirt Belt and beyond. As such, more than half of its residents are off-world students. Today the moon is home to various ski resorts, mountain climbing and winter homes, courtesy of the local government who provides substantial benefits to workers as well as large universities which attract many to learn."
 	description "	In addition to the overarching education industry, Ilmyria also houses the headquarters of Ikaros Engineering."
 	spaceport "Although not outdated in any sense, the spaceport has a distinctive vintage style from the early days of exploration. The main terminal is littered with advertisements for many resorts and schools in the zone and many buses come and go from the terminal. The port is located some kilometers of the main settlement, which resembles the alpine villages that you would see in antique movies. Just outside the the village there is a large campus, where students gain their qualifications for the many industries in the system."
@@ -37,7 +37,7 @@ planet Ilmyria
 planet Nymbu
 	attributes periphery research
 	landscape land/strato01
-	description "During the halcyon days of space exploration, it was believed that Nymbu was an Earth-like world, and was a prime target for early colonization efforts. But later atmospheric analysis showed that it was closer to Venus in its composition, and so the colony ship sent to settle Nymbu was redirected to assist in the settlement of its icier brother, Phenyria."
+	description "During the early days of space exploration, it was believed that Nymbu was an Earth-like world, and so it was a prime target for early colonization efforts in the Southern Rim. But later atmospheric analysis showed that it was closer to Venus in its composition, and so the colony ship sent to settle Nymbu was redirected to assist in the settlement of its icier brother, Phenyria."
 	description "	While the cloudy world was ignored for most of of the system's history, when the first caravans from the Deep arrived in the 2600s there was a qualitative jump in industrial capacity, to the point that a new attempt was made to colonize Nymbu. A new model of colony ship named 'Cloud City' was pioneered to settle Nymbu, and it remains the first and only one of its type established here."
 	description "	Nymbu is also famous for hosting the Strato GX, a racing competition across the planet."
 	spaceport "The Port is a spire structure located in the center of city, where ships dock and take off regularly, at the center is a elevator that takes you to the more recreational, commercial and business areas. Larger ships enter at the base where it has more space and some don't even land, just dump their cargo for the drones to unload it and take off again. There is even some who are using the upper floors to do attempt some sky gliding, a popular sport in this cloudy world."
@@ -46,10 +46,10 @@ planet Nymbu
 		fleet "Small Militia" 12
 
 planet "Daedalus Station"
-	attributes border station
+	attributes periphery station research
 	landscape land/nstation1
 	music ambient/machinery
-	description `"Daedalus Station is jointly owned by Paradigm and Ikaros for research and development. Entrance is strictly prohibited to non-employees, and only the most trusted of people may access its facilities. Built during the caravan era, Daedalus Station was at the cutting edge of station capabilities and along with Ilmyria were the centers of research for Paradeigm.`
+	description "Daedalus Station is jointly owned by Paradigm and Ikaros for research and development. Entrance is strictly prohibited to non-employees, and only the most trusted of people may access its facilities. Built during the caravan era, Daedalus Station was at the cutting edge of station capabilities and along with Ilmyria were the centers of research for Paradeigm."
 	"required reputation" 20
 	bribe 0.05
 	security 0.4
@@ -58,7 +58,7 @@ planet "Daedalus Station"
 		fleet "Large Militia" 14
 
 planet Austral
-	attributes periphery farming frontier tourism
+	attributes periphery farming frontier tourism sanctuary
 	landscape land/cordillera
 	description "Austral is a quiet, Earth-like world with a single large continent and a few islands surrounded by ocean. Its first settlers, wanting to escape the crowdedness that plagued Earth, scattered across the continent and established thousands of small independent villages, instead of large urban centers that are more common elsewhere."
 	description "	Being an idyllic agrarian world, Austral is a popular retirement destination, with a population recently reaching a hundred million inhabitants. Due to the planet's remoteness and the decentralized nature of the settlements, most Austral villages are not shown on local maps of the planet. This makes Austral a perfect hideout for wanted individuals across the galaxy, who wish to disappear among the numerous uncatalogued settlements in the middle of the vast continent."
@@ -71,8 +71,10 @@ planet Austral
 planet Misoes
 	attributes periphery farming sanctuary religious
 	landscape land/ncity13
-	description "Misoes is a very religious world here in the Periphery, established by Christian missionaries in the 25st Century, the quiet colony grew to house a significant population who took sanctuary here. One tale that is passed around here is that of a pirate crew who in their attempt to sack a village their peoples kindness made many of the crew defect and establish lives here. "
-	spaceport "While small the spaceport is very capable to house large ships. taking the appearance of a old earth terminal, the ships park in rows where people and goods come and go. near the entrance to the port threes a city with a very old church in it, many people come to admire the buildings and the natural valleys of the moon, with the gas giant spearing just over the Horizon sometimes creating a spectacular vista. "
+	description "Misoes is a very religious world here in the Periphery. Established by Christian missionaries in the 25th century, the quiet colony grew to house a significant population who took sanctuary here."
+	description "A popular tale found on Misoes tells of a pirate crew, who were astonished by the kindness of the Misoans even during their attempt to sack a local village. Although there are many variations on whether the pirates were local outcasts or from other planets, it always consistently ends with many of the crew defecting to establish peaceful lives here."
+	spaceport "While quite small for a planetary spaceport serving a planet this populated, the spaceport has the ability to serve large ships. The spaceport is of an older design, where ships park in rows adjoining a terminal building that connects to the spaceport's main complex."
+	spaceport "	The spaceport serves the oldest city on Misoes, which also happens to be the location of the first church here. It is a popular destination for offworlders, who come to admire the architecture and the natural valleys of the moon. One of the most well-known sights in this part of the galaxy is the gas giant Providence setting under Misoes' horizon, creating a spectacular vista."
 	security 0
 
 planet Columbia
@@ -93,12 +95,13 @@ planet Columbia
 		fleet "Large Militia" 14
 
 planet "San Paolo"
-	attributes periphery factory farming tourism
+	attributes periphery factory farming tourism forest
 	landscape land/ncity6
-	description "San Paolo is a tropical world, dominated by vast jungles that stretch across continents, in the plains and valleys where the trees don't dominate the landscape exist many settlements and farms that reach millions of kilometers, all to feed the ever increasing population of the urban centers, where the skyline is dominated by skyscrapers who house millions working in some variation of goods and services or manufacturing. San Paolo is also home to Taurus-Ikaros Defense Group, one of the largest weapon manufacturers in the South."
-	description "	As the first planet to be settled in this region, its customs and culture differ somewhat from the other planets in the Periphery but its still recognizable. Many people from all corners of space come here for the pristine beaches here during the summer."
-	spaceport "The spaceport is located in a lake near the capital, being constructed recently to accommodate the large influx of tourists and immigrants. the platforms are shaped like a ring and there are dozens of them. The Terminal here is lavish, containing hotels, shopping malls and stores having people occupied until their next destination."
-	spaceport "	Some way to the west there's the storehouse where millions of containers are packed, organized and distributed, most of it is automatic with operators only supervising the most critical tasks."
+	description "San Paolo is a tropical world dominated by vast jungles that stretch across continents. In the plains and valleys the trees are replaced by farms that reach millions of hectares in size, all to feed the ever increasing population of the local urban centers, housing millions working in factory complexes and office buildings. San Paolo is also home to Taurus-Ikaros Defense Group, one of the largest weapon manufacturers in the South."
+	description "	As the first planet to be settled in this region, its customs and culture differ somewhat from the other planets in the Periphery. Many people from all corners of space come here to San Paolo's pristine beaches during the summer."
+	description "	Although prosperous, San Paolo is not without its issues. It is well known for being the center of the criminal underground in the Southern Rim, with significant connections to pirate planets like Greenrock."
+	spaceport "The spaceport, a collection of dozens of ring-shaped platforms, is located by a lake in sight of the capital city, constructed recently to accommodate the large influx of tourists and immigrants. The spaceport complex is lavish with countless hotels, shopping malls, and casinoes; it's not unlikely that more than a few of them are associated with the mafias in the city."
+	spaceport "	Some way to the west there's the storehouse where millions of containers are packed, organized and distributed.Most of it is done by drones and robots, with operators only overseeing the most critical tasks."
 	outfitter "Ammo South"
 	outfitter "Basic Outfits"
 	outfitter "Common Outfits"
@@ -114,15 +117,15 @@ planet "San Paolo"
 planet Inova
 	attributes uninhabited
 	landscape land/nbeach1
-	description "Inova was once a thriving colony in the Periphery, however during a particularly gruesome fight against a band of pirates, the damage resulted in station fragments colliding with the planet. Millions escaped as the planet got clouded by dust a few remained, today there are few communities "
-	spaceport "Whats left of the spaceport has sunk into the sea, leaving a crater hole. "
+	description "Inova was once a thriving colony in the Periphery. However, during a particularly gruesome fight between the planetary miltia and a band of pirates in orbit, debris from the battle rained over the major cities and intensifying already prevalent dust storms across the planet, resulting in a mass exodus from the colony. Today there are few human settlements remaining on Inova, and those that do live in under abject conditions."
+	description "	Although the landing beacon for the spaceport is still active, what's left of the old spaceport has sunk into the sea, leaving a large crater hole in its wake."
 	government Uninhabited
 	"required reputation" -1000
 
 planet Prodos
 	attributes periphery station
 	landscape land/station10
-	description "Prodos Station was one of the three stations built during the Caravan Era, a symbol of progress for this region of space. The pirate assault of 2873 left the station partially damaged, and many of its residents were evacuated to Solace."
+	description "Prodos Station was one of the three stations built during the Caravan Era, a symbol of progress for this region of space. A pirate assault in 2993 left the station partially damaged, and many of its residents were evacuated to Solace."
 	bribe 0.05
 	security 0.6
 
@@ -150,7 +153,7 @@ planet Venus
 	attributes "near earth" research tourism
 	landscape land/venusterra
 	description "Venus was, until recently, a planet where surface temperatures were hot enough to melt lead. But with the dawn of the space age, many organizations focused on making the planet a second home for humans because of its Earth-like characteristics. After half a millennia of work the planet is now largely safe to inhabit, but the atmosphere is still unbreathable without the assistance of respirators."
-	description `	Since the formation of the Republic, Venus became home to the Interplanetary Court of Justice and also the Republic Intelligence Bureau. Venus is also known as the "Garden of the Republic" with its Biospheres crafted to absolute perfection, to the delight of tourists and locals alike.`
+	description `	Since the formation of the Republic, Venus became home to the Interplanetary Court of Justice and also the Republic Intelligence Bureau. Venus is also known as the "Garden of the Republic" with its biospheres crafted to absolute perfection, to the delight of tourists and locals alike.`
 	spaceport "Unlike Earth's spaceport, Venus' busy spaceport is surprisingly clean, and far more evoking. Consisting of a ring of skyscrapers covered in greenery, pilots have complained more about the impracticality of the vegetation covering the docking areas far more than they have commented on the beauty of the gardens that bring a sense of life to the port; to the tourists, it's all part of the awe-inspiring view that Venus uniquely provides."
 	spaceport "	From the spaceport, there's a series of elevators that connect to multiple maglev stations, which themselves connect to the ever growing network of urban settlements. In the distance you spot another spaceport, most likely for Navy or private Republic vessels."
 	"required reputation" 2
@@ -166,8 +169,7 @@ planet "New Sichuan"
 	description "New Sichuan was one of the first Earth-like worlds settled by humans. A steep mountain world, the initial colonists initially introduced livestock, but came to favor farming rice in the terraces sculpted from the rock of the mountains. As the centuries passed the cities grew to become some of the largest in human space and the farms became more automated, creating an unique system of farming complexes and distribution centers that efficiently provided for the burgeoning planet, as well as other planets in nearby systems."
 	description "	During the Alpha Wars, New Sichuan was briefly occupied by the Alphas. In their retreat from Human forces, they systematically destroyed the farming complexes and the distribution centers, leading to widespread famine across New Sichuan. Many cities were deserted for the safety of better protected planets like Earth or Haze."
 	description "	When the Alpha Wars subsided and the population of the planet was largely restored during the Caravan Era, measures to taken to ensure the tragedy was never lest the Alphas rose again. Each city holds large towers housing aquoponic farms for meat and other vegetables, in order to supplement the fertile rice fields that New Sichuan still holds and exploits; today these towers are symbols of the human ability to adapt in the face of mounting challenges, and recieve many off-world visitors."
-	spaceport "New Sichuan Starport is unique among ports as its carved on the face of a mountain. The massive complex is made out of holes in the stone wall, extending deep underground for thousands of ships."
-	spaceport "The hub is on the side facing one of the few valleys in this mountain range where the capital resides. Balconies with thousands of people admire the view, take photos, etc."
+	spaceport "New Sichuan Starport is a massive complex carved into face of a mountain, extending deep underground, with enough hangars embedded in the cliff for thousands of ships. The main building is on the side facing one of the few valleys in this mountain range where the capital resides."
 	bribe 0.1
 	security 0.1
 	tribute 1400
@@ -177,7 +179,7 @@ planet "New Guangdong"
 	attributes factory "near earth" urban fishing
 	landscape land/ncity8
 	description "New Guangdong is an ocean world almost devoid of landmasses. The first settlers that came here established small outposts and fishing villages on the few islands rose above the surface. As industrialization took hold, those villages gradually became floating cities large enough to rival metropolises on Earth, and thanks to the discovery of massive silicon deposits, the burgeoning electronics industry that emerged is now the largest export of New Guangdong."
-	description "Along with Vinci, much of the electronics utilized in human space originate from components fabricated here. The competition between the two planets can be quite fierce at times; while New Guangdong tends to have a higher output of electronics, Vinci tends to be further on the bleeding edge."
+	description "	Along with Vinci, much of the electronics utilized in human space originate from components fabricated here. The competition between the two planets can be quite fierce at times; while New Guangdong tends to have a higher output of electronics, Vinci tends to be further on the bleeding edge."
 	spaceport "The spaceport can be described in one word: massive. The main platform is at least seven kilometers in diameter, and surrounding it are smaller platforms capable of taking multiple bulk freighters at the same time, and even then there are too few platforms for all the bulk freighters to land on. Cargo is unloaded from the spaceships and moved by automatic loaders to titanic ships that transport it to factories all across the ocean."
 	spaceport "	The central complex of the spaceport could be considered a city by itself. Hundreds of thousands of people move through the building every hour; from large shopping centers, casinos, and hotels, one could visit all of those and still have the rest of the planet to see."
 	outfitter "Ammo South"
@@ -192,9 +194,10 @@ planet "New Guangdong"
 planet Mikhailnov
 	attributes "near earth" factory urban
 	landscape land/ncity3
-	description "Mikhailnov was the second planet colonized by humanity before the hyperdrive was invented. As the nations of earth battle for supremacy the Russian Empire wanted a colony to their name so the Ruler Gregory Mikhail funded with its own money the expedition to Magna Comae unfortunately Mikhail wouldnt survive the journey, and when settlers arrived they gave the planet his name to honor its deeds."
-	description "	Over the years Mikhailnov became an industrial world large enough that they started to build their own ships outside Earth, and so Yatsunov Shipyards was formed as a subsidiary of the Colony ship constructor eventually absorbing it and becoming the first Interstellar shipyard outside Earth."
-	spaceport "The spaceport is very old, as you can see how the city grew around it from the air. The port unlike others was made underground, consisting of a rows of rings where ships park over deep vertical tunnel where lifts move cargo to the surface."
+	description "Mikhailnov was the second planet colonized by humanity before the hyperdrive was invented. Named for Gregory Mikhail, a politician on old Earth, he financed the expedition to Magna Comae and intended to fly alongside the first colonists to the planet. While Mikhail wouldn't survive the journey, when the colony ship arrived in Magna Comae they gave the planet his name to honor his deeds."
+	description "	Over the years Mikhailnov became an industrial world, large enough to create its own shipyards to facilitate the exploitation of the system's other resources. The burgeoning shipbuilding industries have evolved over time to become Yatsunov Shipyards, which holds the title of being the the first shipyard outside the Sol system, and the oldest continously operating shipyard."
+	spaceport "Like the spaceport on Chiron, Mikhailnov has two spaceports; a defunct landing site created by the first settlers with their nuclear-powered starships, and the relatively newer spaceport that developed after repulsors became commonplace. And yet the spaceport is still very old among spaceports."
+	spaceport "	From the air, you can see how spaceport city grew around the new spaceport, carefully planned to ensure top-of-the-line efficiency for the 27th century galaxy it was built for. This port, unlike most other major spaceports, was made constructed underground. It consists of rows of rings where ships park in deep vertical tunnels, from which lifts move cargo to the surface."
 	shipyard "Basic Ships"
 	shipyard "Betelgeuse Advanced"
 	shipyard "Betelgeuse Basics"
@@ -233,7 +236,7 @@ planet Swarajah
 	attributes "dirt belt" factory farming urban
 	landscape land/ncity7
 	description "Swarajah was the first colony established by the Hindu peoples of Earth. It has become one of the more heavily populated planets in the South, but because of lack of infrastructure not much is industrialized as other planets in the region like Solace, so the surface is still filled with farms that feed the densely packed cities."
-	spaceport "The spaceport is rather simplistic for such a large population, just a series of simple concrete platforms where large freighters come and go. Further north you can spot the city it serves. Nearby there's an area especially designated as a marketplace for the local merchants, but it seems to be overflowing into the spaceport; there must be upwards of ten thousand people at this time, buying or selling goods."
+	spaceport "The spaceport is rather simplistic for such a large population, just a series of simple concrete platforms where large freighters come and go. Further north you can spot the city it serves. Nearby there's an area especially designated as a marketplace for the local merchants, but it seems to be overflowing into the spaceport; there must be upwards of ten thousand people at this time buying or selling goods."
 	shipyard "Basic Ships"
 	shipyard "Tarazed Basics"
 	outfitter "Ammo South"
