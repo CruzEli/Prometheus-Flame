@@ -108,7 +108,7 @@ outfit "Meson Phaser Turret"
 		"hull damage" 30.6
 		"ion damage" 1.2
 		"scrambling damage" 1.2
-	description "An recent development by Ikaros, by mounting a pair of Phasers into a turret it can double the fire-rate without much loss in efficiency this allows the turret to act as a very effective tool against fast moving small targets."
+	description "A recent development by Ikaros, by mounting a pair of Phasers into a turret it can double the fire-rate without much loss in efficiency this allows the turret to act as a very effective tool against fast moving small targets."
 	
 outfit "Heavy Meson Phaser"
 	category "Guns"
