@@ -521,7 +521,7 @@ system Pherkad
 			scale 1.6
 		distance 5393.53
 		period 2717.253
-		object Prodos
+		object "Prodos Station"
 			sprite planet/station2
 				scale 0.5
 			distance 607.417
