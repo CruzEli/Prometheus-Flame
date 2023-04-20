@@ -38,9 +38,10 @@ planet Nymbu
 	attributes periphery research
 	landscape land/strato01
 	description "During the early days of space exploration, it was believed that Nymbu was an Earth-like world, and so it was a prime target for early colonization efforts in the Southern Rim. But later atmospheric analysis showed that it was closer to Venus in its composition, and so the colony ship sent to settle Nymbu was redirected to assist in the settlement of its icier brother, Phenyria."
-	description "	While the cloudy world was ignored for most of of the system's history, when the first caravans from the Deep arrived in the 2600s there was a qualitative jump in industrial capacity, to the point that a new attempt was made to colonize Nymbu. A new model of colony ship named 'Cloud City' was pioneered to settle Nymbu, and it remains the first and only one of its type established here."
+	description "	While the cloudy world was ignored for most of of the system's history, when the first caravans from the Deep arrived in the 2600s there was a qualitative jump in industrial capacity, to the point that a new attempt was made to colonize Nymbu. A new model of colony ship named the 'Cloud City' was constructed to settle Nymbu, and it remains the first and only colony established here."
 	description "	Nymbu is also famous for hosting the Strato GX, a racing competition across the planet."
-	spaceport "The Port is a spire structure located in the center of city, where ships dock and take off regularly, at the center is a elevator that takes you to the more recreational, commercial and business areas. Larger ships enter at the base where it has more space and some don't even land, just dump their cargo for the drones to unload it and take off again. There is even some who are using the upper floors to do attempt some sky gliding, a popular sport in this cloudy world."
+	spaceport "The port consists of a spire located in the center of Cloud City. Most ships dock on the outside, but larger ships enter at the base where it has more space; some don't even land, but just dump their cargo for the port's drones to pick them up."
+	description "	At the center of the spire is a elevator that takes you to the more recreational, commercial and business areas. A few people are using the upper floors to do attempt some skygliding, a popular sport in this cloudy world."
 	tribute 200
 		threshold 1400
 		fleet "Small Militia" 12
@@ -224,7 +225,7 @@ planet Margad
 planet Asrayapur
 	attributes "dirt belt" farming frontier textiles
 	landscape land/ncity17
-	description "Asrayapur is last planet settled by the Hindu people. It was first settled less than a century ago, and the settlers are still struggling to establish themselves; although it is an hospitable climate, the amount of labor needed to clear forests and to plow rocky fields has meant that the towns here can only grow very slowly."
+	description "Asrayapur was first settled less than a century ago, the last planet settled by the Hindu people. The settlers are still struggling to establish themselves; although it is an hospitable climate, the amount of labor needed to clear forests and to plow rocky fields has meant that the towns here can only grow very slowly."
 	description "	The farms grow both food crops and cotton, and very recently they have begun manufacturing their own textiles instead of just shipping the raw cotton off-world for processing."
 	spaceport "Asrayapur's spaceport is a ring of low wooden buildings around a wide landing area paved with concrete slabs. Around the perimeter carts of trade goods are driven, some being pulled by tractors and others, by horses or oxen. You even think you see a few carts being pulled by water buffalo."
 	spaceport "	Most of the buildings are for storage, but from somewhere nearby you can smell fresh-baked bread."
@@ -237,7 +238,7 @@ planet Asrayapur
 planet Swarajah
 	attributes "dirt belt" factory farming urban
 	landscape land/ncity7
-	description "Swarajah was the first colony established by the Hindu peoples of Earth. It has become one of the more heavily populated planets in the South, but because of lack of infrastructure it is not as is industrialized as other planets in the region like Solace. Instead of industrial sectors, the surface is occupied more by farmland that feed the densely packed cities that have grown here."
+	description "Swarajah was the first colony established by the Hindu peoples of Earth. It has become one of the more heavily populated planets in the South, but because of a lack of infrastructure it is not as is industrialized as other planets in the region, like Solace. Instead of sprawling factories, the surface is occupied more by farmland that feed the densely packed cities that have grown here."
 	spaceport "The spaceport is rather simplistic for such a large population, just a series of simple concrete platforms where large freighters come and go. Further north you can spot the city it serves. Nearby there's an area especially designated as a marketplace for merchants to sell their wares, but it seems to be overflowing into the spaceport; there must be upwards of ten thousand people in there."
 	shipyard "Basic Ships"
 	shipyard "Tarazed Basics"
