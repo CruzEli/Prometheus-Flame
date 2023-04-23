@@ -1,4 +1,4 @@
-# Copyright (c) 2022 by Epsil-Astra
+# Copyright (c) 2023 by Epsil-Astra
 #
 # Endless Sky is free software: you can redistribute it and/or modify it under the
 # terms of the GNU General Public License as published by the Free Software
@@ -14,12 +14,21 @@ shipyard "Paradeigm Basics"
 #	"Emporos"
 	
 outfitter "Ikaros Testing"
-	"Meson Phaser Beam"
-	"Meson Phaser Turret"
-	"Heavy Meson Phaser"
+	"Mesron Phaser Cannon"
+	"Mesron Phaser Turret"
+	"Heavy Mesron Phaser"
 	"Marksman Anti-Missile"
 	"Sharpshooter Anti-Missile"
 	"Aeraki Cryocooler System"
+	"M302 Curie Reactor"
+	
+#stuff is being currently tested in another branch.	
+	
+#outfitter "Paradeigm Engine Testing"
+#	"Mesron Ascalon Thruster"
+#	"Mesron Vel Thruster"
+#	"Mesron Ascalon Steering"
+#	"Mesron Vel Steering"
 	
 #Deprecated	
 	

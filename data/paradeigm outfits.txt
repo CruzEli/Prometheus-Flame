@@ -53,10 +53,11 @@ outfit "Sharpshooter Anti-Missile"
 #
 # Currently they are not very useful against shields that why i have piercing, however the weapons will need balancing to be somewhat useful by themselves.
 # In talks with plugin-chat i got the idea to make the Meson a shield disruptor instead of piercer and the Kisat a Hull shredder.
+# after more analysis, i decided to make this weapon a miniaturized ion cannon. 
 
-outfit "Meson Phaser Beam"
+outfit "Mesron Phaser Cannon"
 	category "Guns"
-	cost 90000
+	cost 32000
 	thumbnail "outfit/blaster"
 	"mass" 12
 	"outfit space" -12
@@ -66,23 +67,24 @@ outfit "Meson Phaser Beam"
 		sprite "projectile/pwavecannon"
 			"frame rate" 20
 		sound "pwave"
-		"hit effect" "pulse impact"
+		"hit effect" "ion impact" 2
 		"inaccuracy" 1.2
 		"velocity" 40
 		"lifetime" 16
-		"reload" 24
-		"disruption damage" 0.24
-		"firing energy" 20
-		"firing heat" 70
-		"shield damage" 8.2
-		"hull damage" 20.2
-		"ion damage" 1.2
-		"scrambling damage" 1.2
-	description "Developed as a replacement for the energy blasters, Meson Phasers were built over the years to be as efficiently as possible. They work by accelerating a packet of protons and electrons trough metal sheets creating an pulsed beam of subatomic particles (called a Pulsed 'Laser' Beam) launched at near light speeds. While not very good against any kind of shielding alone, their ability to disrupt them coupled with their small size makes them a lethal weapon in sufficient numbers."
+		"reload" 30
+		"firing energy" 30
+		"firing force" 2.5
+		"firing heat" 38.3
+		"shield damage" 42.9
+		"hull damage" 15.2
+		"ion damage" 1.28
+		"scrambling damage" 1.28
+	description "Developed as a competitor to the Deep's Lasers, Mesron Phasers were built over the years to be as efficiently as possible. They work by accelerating a packet of protons and electrons trough metal sheets creating an pulsed beam of subatomic particles (called a Pulsed 'Laser' Cannon) launched at near light speeds.
+	While they cant do much damage by themselves, the ability to disrupt electronics of ships, paired with their compact size makes them a powerful tool when used in conjunction with other more lethal weapons. "
 	
 # Turret versions
 
-outfit "Meson Phaser Turret"
+outfit "Mesron Phaser Turret"
 	category "Turrets"
 	cost 210000
 	thumbnail "outfit/blaster turret"
@@ -96,25 +98,26 @@ outfit "Meson Phaser Turret"
 		"hardpoint sprite" "hardpoint/pulse turret"
 		"hardpoint offset" 7.
 		sound "pwave"
-		"hit effect" "pulse impact"
-		"inaccuracy" 1.2
+		"hit effect" "ion impact" 2
+		"inaccuracy" 1.4
+		"turret turn" 2.8
 		"velocity" 40
 		"lifetime" 16
 		"reload" 12
-		"disruption damage" 0.30
-		"firing energy" 30
-		"firing heat" 70
-		"shield damage" 8.2
-		"hull damage" 30.6
-		"ion damage" 1.2
-		"scrambling damage" 1.2
-	description "A recent development by Ikaros, by mounting a pair of Phasers into a turret it can double the fire-rate without much loss in efficiency this allows the turret to act as a very effective tool against fast moving small targets."
+		"firing energy" 34
+		"firing force" 3
+		"firing heat" 40.3
+		"shield damage" 42.9
+		"hull damage" 15.2
+		"ion damage" 1.28
+		"scrambling damage" 1.28
+	description "A recent development by Ikaros, by mounting a pair of Phasers into a turret the rate of fire can be doubled without much loss in efficiency. the doubling of the Firepower paired with a fasthis allows the turret to act as a very effective tool against fast moving small targets."
 	
-outfit "Heavy Meson Phaser"
+outfit "Heavy Mesron Phaser"
 	category "Guns"
 	licenses
 		"Militia"
-	cost 170000
+	cost 160000
 	thumbnail "outfit/pulse cannon"
 	"mass" 16
 	"outfit space" -16
@@ -124,23 +127,23 @@ outfit "Heavy Meson Phaser"
 		sprite "projectile/pwavecannon"
 			"frame rate" 20
 		sound "pwave"
-		"hit effect" "pulse impact"
+		"hit effect" "ion impact" 2
 		"inaccuracy" 1.2
 		"velocity" 40
 		"lifetime" 16
-		"reload" 22
-		"disruption damage" 0.48
-		"firing energy" 40
-		"firing heat" 140
-		"shield damage" 16.4
-		"hull damage" 41.2
-		"ion damage" 2.4
-		"scrambling damage" 2.4
-	description "The final development of the Meson Phaser, this Heavy variant pushes the technology even further. After studying the Proton Gun technology from the syndicate, Ikaros developed this variant to be lethal even against the navy ships. Among the upgrades, the Heavy Meson Phaser is capable of disrupting shields even further while increasing damage output by reducing reload time this comes at a cost of doubling the Heat Waste and Energy requirements. "
+		"reload" 16
+		"firing energy" 60
+		"firing force" 5
+		"firing heat" 114.9
+		"shield damage" 85.8
+		"hull damage" 30.4
+		"ion damage" 3.56
+		"scrambling damage" 3.56
+	description "The final development of the Mesron Phaser, this Heavy variant pushes the technology even further. After studying the Proton Gun technology from the Syndicate, Ikaros developed this variant to be lethal even against the navy shielding. "
 	
 # UTILITY
 
-# there are two areas that paradeigm will develop over the course of the war: superconductive materials and .
+# there are two areas that paradeigm will develop over the course of the war: superconductive materials and active systems.
 
 outfit "Aeraki Cryocooler System"
 	category "Systems"
@@ -152,3 +155,15 @@ outfit "Aeraki Cryocooler System"
 	"cooling" 7.2
 	"active cooling" 21.3
 	description "Paradiegm development of superconductive technology, led to a number of applications in all kinds of fields, one of them being active cooler tech. The Aeraki is a Cryogenic system designed to prevent overheat passively but when temperature reaches a critical point it can increase its heat reduction at the cost of power. "
+
+# POWER
+	
+outfit "M302 Curie Reactor"
+	category "Power"
+	cost 680000
+	thumbnail "outfit/hai pebble core"
+	"mass" 30
+	"outfit space" -30
+	"energy generation" 4.1
+	"heat generation" 15.2
+	description "Placeholder. "
