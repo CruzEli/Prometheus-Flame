@@ -18,7 +18,7 @@ ship "Anvatis" "Anvatis (Particle)"
 		"RT-I Radiothermal" 2
 		"Supercapacitor"
 		"Water Coolant System"
-		"Cooling Duct"
+		"Cooling Ducts"
 		"D23-QP Shield Generator"
 		
 		"Greyhound Plasma Thruster"
@@ -90,7 +90,7 @@ ship "Anvatis" "Anvatis (Speedy)"
 		"RT-I Radiothermal" 2
 		"Supercapacitor"
 		"Water Coolant System"
-		"Cooling Duct"
+		"Cooling Ducts"
 		"D14-RN Shield Generator"
 		
 		"A370 Atomic Thruster"
