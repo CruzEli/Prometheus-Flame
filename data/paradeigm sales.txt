@@ -24,11 +24,13 @@ outfitter "Ikaros Testing"
 	
 #stuff is being currently tested in another branch.	
 	
-#outfitter "Paradeigm Engine Testing"
-#	"Mesron Ascalon Thruster"
-#	"Mesron Vel Thruster"
-#	"Mesron Ascalon Steering"
-#	"Mesron Vel Steering"
+outfitter "Paradeigm Engine Testing"
+	"Mesron Ascalon Thruster"
+	"Mesron Vel Thruster"
+	"Mesron Ascalon Steering"
+	"Mesron Vel Steering"
+	"Mesron Gungnir Thruster"
+	"Mesron Gungnir Steering"
 	
 #Deprecated	
 	
