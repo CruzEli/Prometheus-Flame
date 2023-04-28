@@ -1,10 +1,10 @@
-#Epsil Notes: the main themes that I got for the south's new ships are that they are bulky to withstand pirate attacks, modular since many of the designs were converted from civilian ones to speed up development, 
+# Epsil Notes: the main themes that I got for the Southern Rim's new ships are that they are bulky to withstand pirate attacks, modular since many of the designs were converted from civilian ones to speed up development.
 
 
 # ANTI-MISSILES
 # Based on Zoura's ideas from HSO.
 # The south doesn't have any planets that sell anti-missiles separate from ships. While it's not impossible to import things, it makes more sense to me to have them make their own anti-missiles. 
-# Epsil Notes: I will retain the Tarazed origin, they will become available when war starts as imports will be cut, giving impetus to the creation of this anti missile.
+# Epsil Notes: I will retain the Tarazed origin, they will become available when war starts as imports will be cut, giving impetus to the creation of this anti-missile.
 
 outfit "Marksman Anti-Missile"
 	category "Turrets"
@@ -24,7 +24,7 @@ outfit "Marksman Anti-Missile"
 		"reload" 16
 		"firing energy" 12
 		"firing heat" 5
-	description "The inability to purchase Anti-Missile Turrets without heavy import costs means the Southern Defense Pact needed an in-house Anti-Missile system to protect their merchant convoys from pirate attacks. Drawing on the Quarg's long-ranged anti-missile systems, Tarazed's new offering focuses not on delivering as much anti-missile as possible, but firing more accurately over longer ranges."
+	description "The inability to import Anti-Missile Turrets from Lovelace Labs without heavy duties has forced the Southern Defense Pact to develop a local anti-missile system, so that they can more easily protect southern merchant convoys from ever-increasing pirate attacks. Drawing from the Quarg's long-ranged anti-missile systems, Tarazed's new offering focuses not on delivering as much anti-missile as possible, but firing more accurately over longer ranges."
 
 outfit "Sharpshooter Anti-Missile"
 	category "Turrets"
@@ -44,19 +44,19 @@ outfit "Sharpshooter Anti-Missile"
 		"reload" 10
 		"firing energy" 22
 		"firing heat" 7
-	description "A heavy counterpart to the Marksman, this anti-missile pushes its range and precision to the limit, allowing a ship to provide a wide area of missile denial across its allied convoy."
+	description "A heavy counterpart to the Marksman with its range and precision pushed to its limits, the Sharpshooter provides a wide area of missile denial for a ship mounted with one."
 
 
 
 # WEAPONS
-# Before the war, Paradeigm already experimented with weaponry, like the Syndicate, wanting to have a equivalent for the Navy Particle cannon. Unlike the syndicate though they don't have ships large enough to accommodate them, so instead they aim to replace the energy blasters (guns will be somewhat weaker than the Hai pulse cannon but in exchange will have disruption)
-#
-# Currently they are not very useful against shields that why i have piercing, however the weapons will need balancing to be somewhat useful by themselves.
-# In talks with plugin-chat i got the idea to make the Meson a shield disruptor instead of piercer and the Kisat a Hull shredder.
+# Before the war, Paradeigm already experimented with weaponry, like the Syndicate, wanting to have a equivalent for the Navy Particle cannon. Unlike the Syndicate though, they don't have ships large enough to accommodate them so instead they aim to replace energy blasters. Their guns will be somewhat weaker than the Hai Pulse Cannon but will have disruption in exchange.
+# Currently they are not very useful against shields which is why I have piercing, but the weapons will need balancing to be somewhat useful by themselves.
+# In talks with plugin-chat I got the idea to make the Meson a shield disruptor instead of piercer and the Kisat a hull shredder.
+# after more analysis, I decided to make this weapon a miniaturized ion cannon. 
 
-outfit "Meson Phaser Beam"
+outfit "Mesron Phaser Cannon"
 	category "Guns"
-	cost 90000
+	cost 32000
 	thumbnail "outfit/blaster"
 	"mass" 12
 	"outfit space" -12
@@ -66,23 +66,22 @@ outfit "Meson Phaser Beam"
 		sprite "projectile/pwavecannon"
 			"frame rate" 20
 		sound "pwave"
-		"hit effect" "pulse impact"
+		"hit effect" "ion impact" 2
 		"inaccuracy" 1.2
 		"velocity" 40
 		"lifetime" 16
-		"reload" 24
-		"disruption damage" 0.24
-		"firing energy" 20
-		"firing heat" 70
-		"shield damage" 8.2
-		"hull damage" 20.2
-		"ion damage" 1.2
-		"scrambling damage" 1.2
-	description "Developed as a replacement for the energy blasters, Meson Phasers were built over the years to be as efficiently as possible. They work by accelerating a packet of protons and electrons trough metal sheets creating an pulsed beam of subatomic particles (called a Pulsed 'Laser' Beam) launched at near light speeds. While not very good against any kind of shielding alone, their ability to disrupt them coupled with their small size makes them a lethal weapon in sufficient numbers."
-	
-# Turret versions
+		"reload" 30
+		"firing energy" 30
+		"firing force" 2.5
+		"firing heat" 38.3
+		"shield damage" 42.9
+		"hull damage" 15.2
+		"ion damage" 1.28
+		"scrambling damage" 1.28
+	description "Developed as a competitor to the Deep's lasers, Mesron Phasers were designed to destroy efficiently in the smallest package possible. They work by accelerating a packet of protons and electrons trough metal sheets, creating an pulsed beam of subatomic particles (called a Pulsed 'Laser' Cannon) launched at sub-light velocities into enemy vessels."
+	description "	While they cannot do much damage by themselves, the ability to disrupt electronics of ships paired with their compact size makes them a powerful weapon, when used in conjunction with other more lethal armaments."
 
-outfit "Meson Phaser Turret"
+outfit "Mesron Phaser Turret"
 	category "Turrets"
 	cost 210000
 	thumbnail "outfit/blaster turret"
@@ -96,25 +95,26 @@ outfit "Meson Phaser Turret"
 		"hardpoint sprite" "hardpoint/pulse turret"
 		"hardpoint offset" 7.
 		sound "pwave"
-		"hit effect" "pulse impact"
-		"inaccuracy" 1.2
+		"hit effect" "ion impact" 2
+		"inaccuracy" 1.4
+		"turret turn" 2.8
 		"velocity" 40
 		"lifetime" 16
 		"reload" 12
-		"disruption damage" 0.30
-		"firing energy" 30
-		"firing heat" 70
-		"shield damage" 8.2
-		"hull damage" 30.6
-		"ion damage" 1.2
-		"scrambling damage" 1.2
-	description "A recent development by Ikaros, by mounting a pair of Phasers into a turret it can double the fire-rate without much loss in efficiency this allows the turret to act as a very effective tool against fast moving small targets."
+		"firing energy" 34
+		"firing force" 3
+		"firing heat" 40.3
+		"shield damage" 42.9
+		"hull damage" 15.2
+		"ion damage" 1.28
+		"scrambling damage" 1.28
+	description "A recent development by Ikaros, the turreted Phaser doubles the rate of fire without much loss in efficiency, creating a very effective weapon which excels against swift and small targets."
 	
-outfit "Heavy Meson Phaser"
+outfit "Heavy Mesron Phaser"
 	category "Guns"
 	licenses
 		"Militia"
-	cost 170000
+	cost 160000
 	thumbnail "outfit/pulse cannon"
 	"mass" 16
 	"outfit space" -16
@@ -124,23 +124,22 @@ outfit "Heavy Meson Phaser"
 		sprite "projectile/pwavecannon"
 			"frame rate" 20
 		sound "pwave"
-		"hit effect" "pulse impact"
+		"hit effect" "ion impact" 2
 		"inaccuracy" 1.2
 		"velocity" 40
 		"lifetime" 16
-		"reload" 22
-		"disruption damage" 0.48
-		"firing energy" 40
-		"firing heat" 140
-		"shield damage" 16.4
-		"hull damage" 41.2
-		"ion damage" 2.4
-		"scrambling damage" 2.4
-	description "The final development of the Meson Phaser, this Heavy variant pushes the technology even further. After studying the Proton Gun technology from the syndicate, Ikaros developed this variant to be lethal even against the navy ships. Among the upgrades, the Heavy Meson Phaser is capable of disrupting shields even further while increasing damage output by reducing reload time this comes at a cost of doubling the Heat Waste and Energy requirements. "
+		"reload" 16
+		"firing energy" 60
+		"firing force" 5
+		"firing heat" 114.9
+		"shield damage" 85.8
+		"hull damage" 30.4
+		"ion damage" 3.56
+		"scrambling damage" 3.56
+	description "The final development of the Mesron Phaser, the Heavy model pushes this technology even further. After studying the Syndicate Proton Gun, Ikaros created an even more powerful variant of the Mesron Phaser that has shown to be effective even against advanced Republic Navy shielding."
 	
 # UTILITY
-
-# there are two areas that paradeigm will develop over the course of the war: superconductive materials and .
+# there are two areas that Paradeigm will develop over the course of the war: superconductive materials and active systems.
 
 outfit "Aeraki Cryocooler System"
 	category "Systems"
@@ -151,4 +150,16 @@ outfit "Aeraki Cryocooler System"
 	"cooling energy" .72
 	"cooling" 7.2
 	"active cooling" 21.3
-	description "Paradiegm development of superconductive technology, led to a number of applications in all kinds of fields, one of them being active cooler tech. The Aeraki is a Cryogenic system designed to prevent overheat passively but when temperature reaches a critical point it can increase its heat reduction at the cost of power. "
+	description "Paradiegm's development of superconductive technology led to a number of applications in all kinds of fields, one of them being active cooler outfits. The Aeraki is a cryogenic system designed to prevent overheat passively, but when temperature reaches a critical point it can increase its heat reduction at the cost of some power."
+
+# POWER
+	
+outfit "M302 Curie Reactor"
+	category "Power"
+	cost 680000
+	thumbnail "outfit/hai pebble core"
+	"mass" 30
+	"outfit space" -30
+	"energy generation" 4.1
+	"heat generation" 15.2
+	description "Placeholder. "

@@ -8,7 +8,7 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 		
-event "war begins in borderworlds"
+event "war begins in periphery"
 	system "Alzyria"
 		government "Free Worlds"	
 	system "Aurelius"
@@ -28,16 +28,13 @@ event "war begins in borderworlds"
 		fleet "Large Republic" 800
 		fleet "Republic Logistics" 1100
 	planet "New Guangdong"
-		description "New Guangdong is an ocean world almost devoid of landmasses. The first settlers that came here started in small fishing villages and outpost on the few islands that went above the surface. As industrialization took hold, the villages expanded into floating cities large enough to dwarf any metropolis on earth allowing it to diversify its economy. Thanks to the discovery of massive silicon deposits, a local electronics industry was established and the cities exploded in population."
-		description "Ever since the attack to the Starport is slowly sinking, thousands of ships and starcraft have been used to evacuate the port. with ships moving away to not be swallowed by the former starport. The nuclear blast also created a massive tsunami that struck cities on the other side of the planet so an evacuation order was sent by the central government to Neighboring New Sichuan."
+		description "New Guangdong is an ocean world almost devoid of landmasses. The first settlers that came here established small outposts and fishing villages on the few islands rose above the surface. As industrialization took hold, those villages gradually became floating cities large enough to rival metropolises on Earth, and thanks to the discovery of massive silicon deposits, the burgeoning electronics industry that emerged is now the largest export of New Guangdong."
+		description "Ever since the attack to the Starport is slowly sinking, thousands of starcraft came to help the evacuation and ships escaping to not be swallowed by the former starport. The nuclear blast also created a massive tsunami that struck cities on the other side of the planet so an evacuation order was sent by the central government to neighboring New Sichuan."
 		spaceport "Whats left of the starport is a mess, with the crater left by the blast sinking the whole structure, you can still see some navy ships entering the structure to try and save the people trapped here. more merchant vessels land in the smaller pads still functioning to take the survivors off-world."
 		"required reputation" 90
-		security .8		
+		security .8
 
-event "borderworlds join fw"
-	date 12 8 3014
-
-event "borderworlds deployment"
+event "periphery deployment"
 	system Alzyria
 		fleet "Small Southern Merchants" 600
 		fleet "Large Southern Merchants" 1200
@@ -79,21 +76,21 @@ event "borderworlds deployment"
 		fleet "Small Free Worlds" 4000
 		fleet "Large Free Worlds" 8000
 
-mission "event: borderworlds join fw"
+mission "Periphery Joins FW"
 	landing
 	source
 		government "Republic" "Syndicate" "Free Worlds"
 		attributes "spaceport"
 	to offer
-		"event: war begins"
+		has "event: war begins"
 	on offer
-		event "war begins in borderworlds"
-		event "borderworlds deployment"
-		log "Factions" "Borderworlds" `The Borderworlds are a section of space that has historically been outside the Earth influence for a long time. While this region of space is plagued by corruption and piracy it also had made advances in various fields in industry and technology. With the Formation of the Free worlds, they agreed to join as many planets in their sphere depend on the resources the Rim has for their economy, and Paradeigm ties with the Southern Mutual Defense Pact. `
+		event "war begins in periphery"
+		event "periphery deployment"
+		log "Factions" "Periphery" `The Periphery is a region of space that has historically been outside the Earth influence for a long time. While this region of space is plagued by corruption and piracy it also had made advances in various fields in industry and technology. With the Formation of the Free worlds, they agreed to join as many planets in their sphere depend on the resources the Rim has for their economy, and Paradeigm ties with the Southern Mutual Defense Pact. `
 		conversation
 			`As you pass through the spaceport something catches your attention, a group near another video screen in the local bar.`
-			`	The scene is of a large government hall, where an important looking man is standing before a crowd, It seems to be announcing something, "... and for those reasons we decided that regardless of the doubts caste by the attacks to the White Belt. We will continue to advocate for the reformation of the election of planetary representatives and reevaluation of all existing trade tariffs, until then we will continue to support the Free Worlds on their Cause. `
-			`	the Bar is filled with chatter many discussing what has transpired, "First the Rim now the Borderworlds, can things get worse now?" you watch quietly until the group disperses, then you depart to your ship once again.`
+			`	The scene is of a large government hall, where an important looking man is standing before a crowd, It seems to be announcing something, "... and for those reasons we decided that regardless of the doubts caste by the attacks to the White Belt. We will continue to advocate for the reformation of the election of planetary representatives and reevaluation of all existing trade tariffs in the Republic, until then we will continue to support the Free Worlds on their cause. `
+			`	the Bar is filled with chatter many discussing what has transpired, "First the Rim now the Periphery, how can it get worse now?" you watch quietly until the group disperses, then you depart to your ship once again.`
 				decline
 				
 
@@ -105,12 +102,34 @@ mission "Moksha Neutrality"
 	landing
 	invisible
 	to offer
-		has "tarazed neutrality"
+		has "event: Tarazed neutrality"
 	on offer
 		event "moksha neutrality"
 		fail
+		
+mission "plasma turret available Anvatis"
+	landing
+	invisible
+	to offer
+		has "event: plasma turret available"
+	on offer
+		event "plasma turret available Anvatis"
+		fail
 
-event "navy occupying the south border"
+event "plasma turret available Anvatis"
+	fleet "Small Free Worlds"
+		add variant 2
+			"Anvatis (Plasma Turret)"
+			
+	fleet "Large Free Worlds"
+		add variant 2
+			"Anvatis"
+			"Anvatis (Plasma Turret)" 2
+		add variant 1
+			"Bastion (Heavy)"
+			"Anvatis (Plasma Turret)"
+
+event "navy occupying the south periphery"
 	system "Albaldah"
 		fleet "Small Southern Merchants" 1000
 		fleet "Large Southern Merchants" 1200
@@ -122,16 +141,16 @@ event "navy occupying the south border"
 		fleet "Small Republic" 600
 		fleet "Large Republic" 800
 		
-mission "Navy occupying the south Border"
+mission "Navy occupying the south Periphery"
 	landing
 	invisible
 	to offer
-		has "navy occupying the south"
+		has "event: navy occupying the south"
 	on offer
 		event "navy occupying the south border"
 		fail		
 
-event "fw southern expansion ashadha"
+event "fw southern expansion extra"
 	system "Ashadha"
 		government "Free Worlds"
 		fleet "Small Southern Merchants" 1200
@@ -142,13 +161,13 @@ event "fw southern expansion ashadha"
 		fleet "Large Southern Pirates" 7000
 		fleet "Navy Surveillance" 3000	
 		
-mission "FW southern expansion Ashadha"
+mission "FW southern expansion extra"
 	landing
 	invisible
 	to offer
-		has "fw southern expansion"
+		has "event: fw southern expansion"
 	on offer
-		event "fw southern expansion ashadha"
+		event "fw southern expansion extra"
 		fail	
 
 event "pug invasion 4 extra"
@@ -158,7 +177,7 @@ mission "Pug invasion 4 Extra"
 	landing
 	invisible
 	to offer
-		has "pug invasion 4"
+		has "event: pug invasion 4"
 	on offer
 		event "pug invasion 4 extra"
 		fail	
@@ -170,7 +189,7 @@ mission "Pug invasion 4 Extra"
 	landing
 	invisible
 	to offer
-		has "pug link restoration 4"
+		has "event: pug link restoration 4"
 	on offer
 		event "pug link restoration 4 extra"
 		fail	
@@ -193,7 +212,7 @@ mission "FWC defended cebalrai Extra"
 	landing
 	invisible
 	to offer
-		has "fwc defended cebalrai"
+		has "event: fwc defended cebalrai"
 	on offer
 		event "fwc defended cebalrai extra"
 		fail	
@@ -203,7 +222,7 @@ mission "FWC defended cebalrai Extra"
 
 event "guangdong restored"
 	planet "Martini"
-		description "New Guangdong is an ocean world almost devoid of landmasses. The first settlers that came here started in small fishing villages and outpost on the few islands that went above the surface. As industrialization took hold, the villages expanded into floating cities large enough to dwarf any metropolis on earth allowing it to diversify its economy. Thanks to the discovery of massive silicon deposits, a local electronics industry was established and the cities exploded in population."
+		description "New Guangdong is an ocean world almost devoid of landmasses. The first settlers that came here established small outposts and fishing villages on the few islands rose above the surface. As industrialization took hold, those villages gradually became floating cities large enough to rival metropolises on Earth, and thanks to the discovery of massive silicon deposits, the burgeoning electronics industry that emerged is now the largest export of New Guangdong."
 		description "As the Planet recovered from the attacks, the people are returning back to the cities, meanwhile a new port is now being planned. While New Guangdong will not recover what had lost in the attacks there's an optimistic feeling as new people come and help build the cities."
 		spaceport "The planned port for New Guangdong is expected to surpass its predecessor, an estimated ten kilometers in diameter its planned to become the largest structure in all of human space, until then, the temporary port will continue to operate as the center for interstellar trade."
 

@@ -23,7 +23,7 @@ outfitter "Ikaros Testing"
 	"M302 Curie Reactor"
 	
 #stuff is being currently tested in another branch.	
-	
+
 outfitter "Paradeigm Engine Testing"
 	"Mesron Ascalon Thruster"
 	"Mesron Vel Thruster"
