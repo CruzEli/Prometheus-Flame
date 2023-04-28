@@ -106,6 +106,28 @@ mission "Moksha Neutrality"
 	on offer
 		event "moksha neutrality"
 		fail
+		
+mission "plasma turret available Anvatis"
+	landing
+	invisible
+	to offer
+		has "event: plasma turret available"
+	on offer
+		event "plasma turret available Anvatis"
+		fail
+
+event "plasma turret available Anvatis"
+	fleet "Small Free Worlds"
+		add variant 2
+			"Anvatis (Plasma Turret)"
+			
+	fleet "Large Free Worlds"
+		add variant 2
+			"Anvatis"
+			"Anvatis (Plasma Turret)" 2
+		add variant 1
+			"Bastion (Heavy)"
+			"Anvatis (Plasma Turret)"
 
 event "navy occupying the south periphery"
 	system "Albaldah"
