@@ -30,6 +30,7 @@ planet Ilmyria
 	outfitter "Delta V Advanced"
 	outfitter "Kraz Advanced"
 	outfitter "Ikaros Testing"
+	outfitter "Paradeigm Engine Testing"
 	tribute 200
 		threshold 1500
 		fleet "Small Militia" 15

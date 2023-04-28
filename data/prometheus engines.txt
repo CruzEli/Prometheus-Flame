@@ -2,7 +2,11 @@
 
 #Epsil's Mesron engines
 
+<<<<<<< Updated upstream
 # MESRON ENGINES AKA MESSIER DRIVES - CURRENTLY TESTING
+=======
+# MESRON ENGINES AKA MESSIER DRIVES
+>>>>>>> Stashed changes
 
 #Draft 1: Mesron engines are considered to be between the Plasma and Atomics of Humanity. while they cant match the efficiency of atomics the can be more heat efficient about it they would be occupy slightly more space than Atomics but are more heat efficient, Mesron Reactors make power a non issue so they eat constant energy [could be attributed to needing constant energy to maintain the Magnetic coil used for the exhaust]
 
