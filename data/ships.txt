@@ -22,11 +22,11 @@ ship "Star Cab"
 			"hull damage" 150
 			"hit force" 450
 	outfits
-		""
-		""
 		Hyperdrive
 		Supercapacitor
 		"X1100 Ion Reverse Thruster"
+		"X1200 Ion Steering"
+		"X1700 Ion Thruster"
 		"nGVF-AA Fuel Cell"
 	engine 0 31.5
 	"reverse engine" 5.5 5
